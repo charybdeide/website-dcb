@@ -1,0 +1,25 @@
+---
+title: "Cum poți să ajuți în războiul din Ucraina"
+date: 2022-02-27
+image: "/images/wp-content/2022/02/Bild1.jpg"
+draft: false
+categories: ["Articole"]
+---
+
+Sunt multe eforturi de ajutor pentru ucrainenii care pleacă din calea războiului. Am centralizat aici câteva organizații, inițiative și surse de informare care ajută direct și care au nevoie de sprijin. Vom actualiza lista pe măsură ce vom afla și de alte grupuri și inițiative. Orice fel de ajutor poate face o mare diferență zilele astea. În continuare, vom menționa resursele în limba engleză pentru a putea fi accesibile cât mai multor persoane.
+
+///
+
+There are many efforts offering support to the Ukrainians fleeing war. We centralized here a few organizations, initiatives and information sources which offer direct help and who need support. We will update the list as we will find out about other groups and initiatives. Any type of help can make a big difference these days. We will mention these resources in English, so that they can be accessible to more people.
+
+**In Romania**
+
+- Paul Alexandru put together a long list of companies, businesses and initiatives taking care of aspects such as accommodation, transportation, etc. [https://m.facebook.com/story.php?story_fbid=5216825398335986&id=100000257310718](https://m.facebook.com/story.php?story_fbid=5216825398335986&id=100000257310718) - Uniti pentru Ucraina Facebook group where citizens offer support and coordinate - [https://www.facebook.com/groups/unitipentruucraina](https://www.facebook.com/groups/unitipentruucraina)- Voluntari in Europa Facebook group where citizens coordinate - [https://www.facebook.com/voluntarieu](https://www.facebook.com/voluntarieu) - Voluntari romani pentru Ucraina  Facebook group where citizens coordinate - [https://www.facebook.com/groups/656293755572916](https://www.facebook.com/groups/656293755572916/?multi_permalinks=657796885422603%2C657790905423201%2C657786518756973&notif_id=1645957849722497&notif_t=group_activity&ref=notif)- Refugees Welcome to Romania group - [https://www.facebook.com/RefugeesWelcomeRo/](https://www.facebook.com/RefugeesWelcomeRo/) - Uniunea Ucrainenilor din Romania /  Union of Ukrainians in Romania - [https://www.facebook.com/UURCYP/](https://www.facebook.com/UURCYP/) - Code 4 Romania is working with authorities to develop information platforms regarding institutional responsibilities in Romania, as well as resources for help - [https://www.facebook.com/code4romania/posts/5071172029570006](https://www.facebook.com/code4romania/posts/5071172029570006) - CIVICA Association Iasi - [https://www.facebook.com/asociatiacivica.ro/](https://www.facebook.com/asociatiacivica.ro/) - LOGS - Group for Social Initiatives - [https://www.facebook.com/LOGSGrupDeInitiativeSociale/posts/733093441428961](https://www.facebook.com/LOGSGrupDeInitiativeSociale/posts/733093441428961) - Another list of organizations in Romania, Poland and Ukraine - [https://www.facebook.com/cerculdonatorilorbruxelles/posts/1343378029457129](https://www.facebook.com/cerculdonatorilorbruxelles/posts/1343378029457129) - E-mail address where the Romanian government receives notifications of support being offered by civil society - [umanitar.dsu@mai.gov.ro](mailto:umanitar.dsu@mai.gov.ro) - Information for asylum seekers in Romania [https://www.facebook.com/cnrr.ro/posts/5093481967340217](https://www.facebook.com/cnrr.ro/posts/5093481967340217) 
+
+**In Republic of Moldova**
+
+- CONCORDIA Social Projects Moldova - [https://www.facebook.com/OrganizatiaUmanitaraConcordia](https://www.facebook.com/OrganizatiaUmanitaraConcordia) 
+
+**In Ukraine**
+
+- NGOs and organizations helping internal refugees [https://snyder.substack.com/p/a-few-ways-to-help-ukrainians?utm_source=url](https://snyder.substack.com/p/a-few-ways-to-help-ukrainians?utm_source=url) - International organizations working in Ukraine taking donations [https://snyder.substack.com/p/a-few-more-ways-to-help-ukrainians?utm_source=url](https://snyder.substack.com/p/a-few-more-ways-to-help-ukrainians?utm_source=url) - Donations for the Ukrainian Central Bank [https://bank.gov.ua/ua/news/all/natsionalniy-bank-vidkriv-spetsrahunok-dlya-zboru-koshtiv-na-potrebi-armiyi?fbclid=IwAR3jASgBLgdjw6W87_a2jI1k6xGjVtsE2DU9CCoYFRk9hM5QB5BIyA5-uBY](https://bank.gov.ua/ua/news/all/natsionalniy-bank-vidkriv-spetsrahunok-dlya-zboru-koshtiv-na-potrebi-armiyi?fbclid=IwAR3jASgBLgdjw6W87_a2jI1k6xGjVtsE2DU9CCoYFRk9hM5QB5BIyA5-uBY)- The Kyiv Independent - journalists on the ground - [https://www.patreon.com/kyivindependent](https://www.patreon.com/kyivindependent)- International Rescue Committee - [https://www.rescue.org/](https://www.rescue.org/) - Andreea Vasile also centralized some organizations [here](https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.reuters.com%2Fnews%2Fpicture%2Fukrainian-civilians-train-in-case-of-com-idUSRTS502ZY%2F1589564341%3Ffbclid%3DIwAR136pxIoyXbjI-3zCe9uNF-99epwcWJv4_WvA4dW59lxV7Ike8GInDlFUY&h=AT0PDCjBoz4PV8_O6Nw2rt99dpnTIytGhR8RPeAk-mlvgCDCOX3A6v3iCNSP0BLDiXjEFpR6mq7e2Q9n_6MjQWuwvn92gXHs15kD3DJnTNiKwxhmk0OZ30j9Q3z8KrK9MA)

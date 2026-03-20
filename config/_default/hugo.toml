@@ -1,0 +1,57 @@
+######################## default configuration ####################
+baseURL = "https://diasporacivica.berlin/"
+title = "Diaspora Civică Berlin"
+paginate = 9
+summaryLength = 20
+defaultContentLanguage = "ro"
+defaultContentLanguageInSubdir = false
+disableLanguages = []
+
+# Caching
+[caches.images]
+  dir = ":cacheDir/images"
+  maxAge = "720h"
+
+[caches.assets]
+  dir = ":cacheDir/assets"
+  maxAge = "720h"
+
+# Image quality
+[imaging]
+  quality = 80
+
+# Markup
+[markup.highlight]
+  style = "monokai"
+
+[markup.goldmark.renderer]
+  unsafe = true
+
+# Media types
+[mediaTypes."application/manifest+json"]
+  suffixes = ["webmanifest"]
+
+# Output formats
+[outputFormats.WebAppManifest]
+  mediaType = "application/manifest+json"
+  rel = "manifest"
+
+[outputFormats.SearchIndex]
+  mediaType = "application/json"
+  baseName = "searchindex"
+  isPlainText = true
+  notAlternative = true
+
+# Outputs
+[outputs]
+  home = ["HTML", "RSS", "WebAppManifest", "SearchIndex"]
+
+# Taxonomies
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+
+# Build (needed for Tailwind CSS tree-shaking)
+[build]
+  [build.buildStats]
+    enable = true

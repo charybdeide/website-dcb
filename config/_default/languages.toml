@@ -1,0 +1,29 @@
+################ Romanian language (default) ##################
+[ro]
+languageName = "Ro"
+languageCode = "ro"
+contentDir = "content/romanian"
+weight = 1
+
+  [ro.params]
+    description = "Contribuim la o societate în care cetățenii se organizează, își cunosc și exercită drepturile și responsabilitățile."
+
+################ English language ##################
+[en]
+languageName = "En"
+languageCode = "en"
+contentDir = "content/english"
+weight = 2
+
+  [en.params]
+    description = "We contribute to a society where citizens organize and exercise their rights and responsibilities."
+
+################ German language ##################
+[de]
+languageName = "De"
+languageCode = "de"
+contentDir = "content/german"
+weight = 3
+
+  [de.params]
+    description = "Wir tragen zu einer Gesellschaft bei, in der Bürger sich organisieren und ihre Rechte und Pflichten kennen und ausüben."

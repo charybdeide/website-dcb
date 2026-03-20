@@ -1,0 +1,51 @@
+# Main menu
+[[main]]
+  name = "About"
+  url = "/about/"
+  weight = 1
+
+[[main]]
+  name = "Projects"
+  url = "/projects/"
+  weight = 2
+
+[[main]]
+  name = "Blog"
+  url = "/blog/"
+  weight = 3
+
+[[main]]
+  name = "Team"
+  url = "/team/"
+  weight = 4
+
+[[main]]
+  name = "Get Involved"
+  url = "/get-involved/"
+  weight = 5
+
+[[main]]
+  name = "Donate"
+  url = "/donate/"
+  weight = 6
+
+# Footer menu
+[[footer]]
+  name = "Contact"
+  url = "/contact/"
+  weight = 1
+
+[[footer]]
+  name = "Impressum"
+  url = "/impressum/"
+  weight = 2
+
+[[footer]]
+  name = "Privacy Policy"
+  url = "/datenschutz/"
+  weight = 3
+
+[[footer]]
+  name = "Bylaws"
+  url = "/satzung/"
+  weight = 4

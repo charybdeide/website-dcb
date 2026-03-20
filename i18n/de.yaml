@@ -1,0 +1,24 @@
+- id: home
+  translation: "Startseite"
+- id: read_more
+  translation: "Weiterlesen"
+- id: categories
+  translation: "Kategorien"
+- id: tags
+  translation: "Tags"
+- id: share
+  translation: "Teilen"
+- id: related_posts
+  translation: "Ähnliche Beiträge"
+- id: search_input_placeholder
+  translation: "Suchen..."
+- id: search_no_results
+  translation: "Keine Ergebnisse für"
+- id: search_initial_message
+  translation: "Tippen Sie, um zu suchen"
+- id: search_navigate
+  translation: "zum Navigieren"
+- id: search_select
+  translation: "zum Auswählen"
+- id: search_close
+  translation: "zum Schließen"

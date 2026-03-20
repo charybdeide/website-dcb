@@ -1,0 +1,24 @@
+- id: home
+  translation: "Acasă"
+- id: read_more
+  translation: "Citește mai mult"
+- id: categories
+  translation: "Categorii"
+- id: tags
+  translation: "Etichete"
+- id: share
+  translation: "Distribuie"
+- id: related_posts
+  translation: "Articole similare"
+- id: search_input_placeholder
+  translation: "Caută..."
+- id: search_no_results
+  translation: "Niciun rezultat pentru"
+- id: search_initial_message
+  translation: "Tastează pentru a căuta"
+- id: search_navigate
+  translation: "pentru a naviga"
+- id: search_select
+  translation: "pentru a selecta"
+- id: search_close
+  translation: "pentru a închide"

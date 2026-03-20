@@ -1,0 +1,24 @@
+- id: home
+  translation: "Home"
+- id: read_more
+  translation: "Read More"
+- id: categories
+  translation: "Categories"
+- id: tags
+  translation: "Tags"
+- id: share
+  translation: "Share"
+- id: related_posts
+  translation: "Related Posts"
+- id: search_input_placeholder
+  translation: "Search..."
+- id: search_no_results
+  translation: "No results for"
+- id: search_initial_message
+  translation: "Type to start searching"
+- id: search_navigate
+  translation: "to navigate"
+- id: search_select
+  translation: "to select"
+- id: search_close
+  translation: "to close"

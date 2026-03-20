@@ -1,0 +1,51 @@
+# Main menu
+[[main]]
+  name = "Despre"
+  url = "/about/"
+  weight = 1
+
+[[main]]
+  name = "Proiecte"
+  url = "/projects/"
+  weight = 2
+
+[[main]]
+  name = "Blog"
+  url = "/blog/"
+  weight = 3
+
+[[main]]
+  name = "Echipa"
+  url = "/team/"
+  weight = 4
+
+[[main]]
+  name = "Implică-te"
+  url = "/get-involved/"
+  weight = 5
+
+[[main]]
+  name = "Donează"
+  url = "/donate/"
+  weight = 6
+
+# Footer menu
+[[footer]]
+  name = "Contact"
+  url = "/contact/"
+  weight = 1
+
+[[footer]]
+  name = "Impressum"
+  url = "/impressum/"
+  weight = 2
+
+[[footer]]
+  name = "Politica de confidențialitate"
+  url = "/datenschutz/"
+  weight = 3
+
+[[footer]]
+  name = "Statut"
+  url = "/satzung/"
+  weight = 4

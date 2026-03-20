@@ -1,0 +1,64 @@
+#################### default parameters ################################
+# Logo
+logo = "images/logo.png"
+logo_darkmode = "images/logo-darkmode.png"
+favicon = "images/favicon.png"
+
+# Navbar
+navbar_fixed = true
+theme_switcher = false
+theme_default = "system"
+
+# Section
+mainSections = ["blog"]
+
+# Contact info
+[contact_info]
+  address = "Oderstrasse 16, 10247 Berlin"
+  phone = "+49 30 221 84083"
+  email = "contact@diasporacivica.berlin"
+
+# Copyright
+copyright = "© 2024 Diaspora Civică Berlin — Rumänische Diaspora Initiative e.V."
+
+# Social links
+[[social]]
+  name = "facebook"
+  icon = "fa-brands fa-facebook"
+  link = "https://www.facebook.com/diasporacivicaberlin"
+
+[[social]]
+  name = "instagram"
+  icon = "fa-brands fa-instagram"
+  link = "https://www.instagram.com/diasporacivicaberlin"
+
+# Metadata
+[metadata]
+  meta_author = "Diaspora Civică Berlin"
+  meta_description = "Diaspora Civică Berlin — Rumänische Diaspora Initiative e.V."
+
+# Search
+[search]
+  enable = true
+  primary_color = "#E2382A"
+  show_image = true
+  show_description = true
+  show_tags = true
+  show_categories = true
+
+# Cookie consent (GDPR)
+[cookies]
+  enable = true
+  expire_days = 30
+
+# Preloader
+[preloader]
+  enable = false
+
+# Announcement
+[announcement]
+  enable = false
+
+# Widgets
+[widgets]
+  sidebar = ["categories", "tags"]

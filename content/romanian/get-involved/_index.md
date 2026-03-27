@@ -1,5 +1,6 @@
 ---
 title: "Implică-te."
+layout: single
 meta_title: "Implică-te — Diaspora Civică Berlin"
 description: "Alătură-te nouă și fă o diferență."
 draft: false

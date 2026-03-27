@@ -1,5 +1,6 @@
 ---
 title: "Datenschutz."
+layout: single
 meta_title: "Datenschutz — Diaspora Civică Berlin"
 description: "Datenschutzerklärung"
 draft: false

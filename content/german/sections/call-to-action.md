@@ -1,7 +1,7 @@
 ---
 enable: true
-title: "Gemeinsam widerstehen. Gemeinsam aufbauen."
-description: "Werden Sie Teil von Diaspora Civică Berlin und einer Gemeinschaft, die sich für bürgerschaftliches und politisches Engagement der rumänischen Diaspora einsetzt."
+title: "Willst du etwas bewirken?"
+description: "Werde Teil von Diaspora Civică Berlin und einer Gemeinschaft, die bürgerschaftliche Teilhabe, demokratische Werte und aktive Bürgerschaft fördert."
 image: "/images/cta.jpg"
 button:
   enable: true

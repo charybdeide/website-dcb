@@ -1,8 +1,8 @@
 ---
 title: "About Us."
+layout: single
 meta_title: "About — Diaspora Civică Berlin"
 description: "Learn about Diaspora Civică Berlin, our mission, vision and values."
-image: "/images/about.jpg"
 draft: false
 ---
 

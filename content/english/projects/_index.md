@@ -1,5 +1,6 @@
 ---
 title: "Projects."
+layout: single
 meta_title: "Projects — Diaspora Civică Berlin"
 description: "Discover our civic initiatives and community projects."
 draft: false

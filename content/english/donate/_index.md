@@ -1,5 +1,6 @@
 ---
 title: "Donate."
+layout: single
 meta_title: "Donate — Diaspora Civică Berlin"
 description: "Support our work with a donation."
 draft: false

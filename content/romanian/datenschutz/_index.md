@@ -1,5 +1,6 @@
 ---
 title: "Politica de confidențialitate."
+layout: single
 meta_title: "Politica de confidențialitate — Diaspora Civică Berlin"
 description: "Politica de confidențialitate"
 draft: false

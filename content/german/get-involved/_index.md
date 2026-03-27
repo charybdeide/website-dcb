@@ -1,5 +1,6 @@
 ---
 title: "Mitmachen."
+layout: single
 meta_title: "Mitmachen — Diaspora Civică Berlin"
 description: "Machen Sie mit und bewirken Sie etwas."
 draft: false

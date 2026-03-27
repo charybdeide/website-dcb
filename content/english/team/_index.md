@@ -1,5 +1,6 @@
 ---
 title: "Team."
+layout: single
 meta_title: "Our Team — Diaspora Civică Berlin"
 description: "Meet the people behind Diaspora Civică Berlin."
 draft: false

@@ -1,5 +1,6 @@
 ---
 title: "Impressum."
+layout: single
 meta_title: "Impressum — Diaspora Civică Berlin"
 description: "Legal notice"
 draft: false

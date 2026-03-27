@@ -1,5 +1,6 @@
 ---
 title: "Impressum & Datenschutz."
+layout: single
 meta_title: "Impressum & Datenschutz — Diaspora Civică Berlin"
 description: "Impressum und Datenschutzerklärung"
 draft: false

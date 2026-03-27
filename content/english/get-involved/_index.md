@@ -1,5 +1,6 @@
 ---
 title: "Get Involved."
+layout: single
 meta_title: "Get Involved — Diaspora Civică Berlin"
 description: "Join us and make a difference. Discover how you can contribute to civic life."
 draft: false

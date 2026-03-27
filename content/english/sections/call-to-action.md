@@ -1,7 +1,7 @@
 ---
 enable: true
-title: "Together We Resist. Together We Build."
-description: "Join Diaspora Civică Berlin and be part of a community that advocates for civic and political engagement of the Romanian diaspora."
+title: "Want to make a difference?"
+description: "Join Diaspora Civică Berlin and be part of a community that promotes civic participation, democratic values, and active citizenship."
 image: "/images/cta.jpg"
 button:
   enable: true

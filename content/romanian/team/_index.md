@@ -1,5 +1,6 @@
 ---
 title: "Echipa."
+layout: single
 meta_title: "Echipa noastră — Diaspora Civică Berlin"
 description: "Cunoaște oamenii din spatele Diaspora Civică Berlin."
 draft: false

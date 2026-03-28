@@ -62,3 +62,10 @@ copyright = "© 2024 Diaspora Civică Berlin — Rumänische Diaspora Initiative
 # Widgets
 [widgets]
   sidebar = ["categories", "tags"]
+
+# Plugins
+[[plugins.css]]
+  link = "plugins/swiper/swiper-bundle.css"
+
+[[plugins.js]]
+  link = "plugins/swiper/swiper-bundle.js"

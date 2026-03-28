@@ -9,27 +9,25 @@ banner:
     link: "/get-involved/"
 
 features:
-  - title: "Our Mission."
+  - title: "Who we are."
     image: "/images/about-feature.jpg"
-    content: "We would like to see a society with citizens aware of both their rights and responsibilities, where each individual plays an active civic and political role and brings a positive impact on the entire community."
-    bulletpoints:
-      - "Non-partisan civic initiative"
-      - "Founded in February 2017"
-      - "Active in Berlin and beyond"
+    content: "Diaspora Civică Berlin is an informal, politically unaffiliated civic organization founded in February 2017. We work to increase civic participation in the Romanian community in Berlin and Europe."
     button:
       enable: true
       label: "Learn More"
       link: "/about/"
 
-  - title: "Our Projects."
-    image: "/images/projects-feature.jpg"
-    content: "We follow this mission, on a voluntary basis, by delivering projects and organizing events with civic, political, and/or social focus dedicated to the public in Berlin, Romania, as well as the international audience from Berlin, Germany and the entire Europe."
-    bulletpoints:
-      - "Civic education workshops"
-      - "Community building events"
-      - "Advocacy campaigns"
-    button:
-      enable: true
-      label: "View Projects"
-      link: "/projects/"
+projects_section:
+  title: "Our Projects."
+  content: "We run civic education programs, community events, and advocacy campaigns to strengthen democratic participation in the Romanian diaspora."
+  button:
+    enable: true
+    label: "View All Projects"
+    link: "/projects/"
+  featured_project:
+    title: "Diaspora Map"
+    image: "/images/harta-diasporei.png"
+    description: "Harta Diasporei is a project that aims to gather Romanian locations, services, and places of interest for the Romanian diaspora."
+    button_label: "View the map"
+    button_link: "https://www.hartadiasporei.org"
 ---

@@ -16,11 +16,17 @@ features:
       label: "Află mai multe"
       link: "/about/"
 
-  - title: "Proiectele noastre."
-    image: "/images/projects-feature.jpg"
-    content: "Derulăm programe de educație civică, evenimente comunitare și campanii de advocacy pentru consolidarea participării democratice în diaspora românească."
-    button:
-      enable: true
-      label: "Vezi proiectele"
-      link: "/projects/"
+projects_section:
+  title: "Proiectele noastre."
+  content: "Derulăm programe de educație civică, evenimente comunitare și campanii de advocacy pentru consolidarea participării democratice în diaspora românească."
+  button:
+    enable: true
+    label: "Vezi toate proiectele"
+    link: "/projects/"
+  featured_project:
+    title: "Harta Diasporei"
+    image: "/images/harta-diasporei.png"
+    description: "Harta Diasporei este un proiect ce își propune să adune locațiile și serviciile românești, vorbitoare de limba română sau de interes pentru românii din diaspora."
+    button_label: "Vezi harta"
+    button_link: "https://www.hartadiasporei.org"
 ---

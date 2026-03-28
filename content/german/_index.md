@@ -9,27 +9,25 @@ banner:
     link: "/get-involved/"
 
 features:
-  - title: "Unsere Mission."
+  - title: "Wer wir sind."
     image: "/images/about-feature.jpg"
-    content: "Wir wünschen uns eine Gesellschaft mit Bürgern, die Interesse an ihren Rechten und Verantwortungen haben, in der jeder Einzelne eine aktive bürgerliche und politische Rolle spielt und einen positiven Einfluss auf die gesamte Gemeinschaft ausübt."
-    bulletpoints:
-      - "Überparteiliche Bürgerinitiative"
-      - "Gegründet im Februar 2017"
-      - "Aktiv in Berlin und darüber hinaus"
+    content: "Diaspora Civică Berlin ist eine informelle, politisch unabhängige Bürgerorganisation, die im Februar 2017 gegründet wurde. Wir setzen uns für eine stärkere Bürgerbeteiligung der rumänischen Gemeinschaft in Berlin und Europa ein."
     button:
       enable: true
       label: "Mehr erfahren"
       link: "/about/"
 
-  - title: "Unsere Projekte."
-    image: "/images/projects-feature.jpg"
-    content: "Wir arbeiten auf freiwilliger Basis an dieser Mission, indem wir Projekte durchführen und Veranstaltungen organisieren, die einen bürgerschaftlichen, politischen und/oder sozialen Schwerpunkt haben."
-    bulletpoints:
-      - "Workshops zur politischen Bildung"
-      - "Gemeinschaftsveranstaltungen"
-      - "Advocacy-Kampagnen"
-    button:
-      enable: true
-      label: "Projekte ansehen"
-      link: "/projects/"
+projects_section:
+  title: "Unsere Projekte."
+  content: "Wir führen Programme zur politischen Bildung, Gemeinschaftsveranstaltungen und Kampagnen durch, um die demokratische Teilhabe der rumänischen Diaspora zu stärken."
+  button:
+    enable: true
+    label: "Alle Projekte ansehen"
+    link: "/projects/"
+  featured_project:
+    title: "Diaspora-Karte"
+    image: "/images/harta-diasporei.png"
+    description: "Harta Diasporei ist ein Projekt, das rumänische Orte, Dienstleistungen und interessante Anlaufstellen für die rumänische Diaspora zusammenträgt."
+    button_label: "Karte ansehen"
+    button_link: "https://www.hartadiasporei.org"
 ---

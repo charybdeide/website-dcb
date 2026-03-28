@@ -2,7 +2,6 @@
 title: "DC Dezbatere"
 date: 2017-12-27
 draft: false
-image: "/images/banner.jpg"
 categories: ["Ce"]
 ---
 

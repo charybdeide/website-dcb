@@ -1,39 +1,84 @@
 {{ define "main" }}
   {{ partial "page-header" . }}
 
-  <!-- Upcoming / Ongoing -->
-  {{ $ongoing := where .RegularPages ".Params.ongoing" true }}
-  {{ with $ongoing }}
-    <section class="section pb-0">
-      <div class="container">
-        <h2 class="h3 mb-12">{{ T "projects_upcoming" | default "Upcoming Projects" }}</h2>
-        <div class="row">
-          {{ range . }}
-            <div class="md:col-6 lg:col-4 mb-14">
+  {{ $ongoing := (where .RegularPages ".Params.ongoing" true).ByDate.Reverse }}
+  {{ $past := (where .RegularPages ".Params.ongoing" "!=" true).ByDate.Reverse }}
+
+  <section class="section pt-8">
+    <div class="container">
+      <!-- Filter buttons -->
+      {{ if $ongoing }}
+      <div class="mb-12 flex flex-wrap gap-4 justify-center">
+        <button class="btn btn-primary project-filter active" data-filter="all">{{ T "projects_all" | default "All" }}</button>
+        <button class="btn btn-outline-primary project-filter" data-filter="current">{{ T "projects_ongoing" | default "Ongoing Projects" }}</button>
+        <button class="btn btn-outline-primary project-filter" data-filter="past">{{ T "projects_past" | default "Past Projects" }}</button>
+      </div>
+      {{ end }}
+
+      <!-- Ongoing projects (separate, for "Current" filter only) -->
+      {{ if $ongoing }}
+      <div class="row" id="ongoing-grid" style="display:none;">
+        {{ range $ongoing }}
+          <div class="md:col-6 lg:col-3 mb-14">
+            <div class="border border-black dark:border-white rounded-lg p-4 h-full">
               {{ partial "components/project-card" . }}
             </div>
-          {{ end }}
-        </div>
+          </div>
+        {{ end }}
       </div>
-    </section>
-  {{ end }}
-
-  <!-- Past Projects -->
-  {{ $past := where .RegularPages ".Params.ongoing" "!=" true }}
-  <section class="section">
-    <div class="container">
-      {{ if $ongoing }}
-        <h2 class="h3 mb-12">{{ T "projects_past" | default "Past Projects" }}</h2>
       {{ end }}
-      <div class="row">
-        {{ $paginator := .Paginate $past }}
+
+      <!-- All projects sorted by date (paginated, for "All" and "Past" filters) -->
+      {{ $all := (union $ongoing $past).ByDate.Reverse }}
+      {{ $paginator := .Paginate $all }}
+      <div class="row" id="all-grid">
         {{ range $paginator.Pages }}
-          <div class="md:col-6 lg:col-4 mb-14">
-            {{ partial "components/project-card" . }}
+          <div class="md:col-6 lg:col-3 mb-14 project-item" data-category="{{ if .Params.ongoing }}current{{ else }}past{{ end }}">
+            <div class="border border-black dark:border-white rounded-lg p-4 h-full">
+              {{ partial "components/project-card" . }}
+            </div>
           </div>
         {{ end }}
       </div>
       {{ partial "components/pagination.html" . }}
     </div>
   </section>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      var buttons = document.querySelectorAll(".project-filter");
+      var ongoingGrid = document.getElementById("ongoing-grid");
+      var allGrid = document.getElementById("all-grid");
+      var items = document.querySelectorAll("#all-grid .project-item");
+      var pagination = document.querySelector("nav[aria-label='Pagination']") || document.querySelector(".pagination");
+      buttons.forEach(function(btn) {
+        btn.addEventListener("click", function() {
+          var filter = this.getAttribute("data-filter");
+          buttons.forEach(function(b) {
+            b.classList.remove("active", "btn-primary");
+            b.classList.add("btn-outline-primary");
+          });
+          this.classList.add("active", "btn-primary");
+          this.classList.remove("btn-outline-primary");
+          if (filter === "current") {
+            if (ongoingGrid) ongoingGrid.style.display = "";
+            if (allGrid) allGrid.style.display = "none";
+            if (pagination) pagination.style.display = "none";
+          } else if (filter === "past") {
+            if (ongoingGrid) ongoingGrid.style.display = "none";
+            if (allGrid) allGrid.style.display = "";
+            if (pagination) pagination.style.display = "";
+            items.forEach(function(item) {
+              item.style.display = item.getAttribute("data-category") === "past" ? "" : "none";
+            });
+          } else {
+            if (ongoingGrid) ongoingGrid.style.display = "none";
+            if (allGrid) allGrid.style.display = "";
+            if (pagination) pagination.style.display = "";
+            items.forEach(function(item) { item.style.display = ""; });
+          }
+        });
+      });
+    });
+  </script>
 {{ end }}

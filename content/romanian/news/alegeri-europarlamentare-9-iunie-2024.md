@@ -2,7 +2,6 @@
 title: "Alegeri Europarlamentare 9 Iunie 2024"
 date: 2024-05-26
 draft: false
-image: "/images/banner.jpg"
 categories: ["Articole"]
 ---
 

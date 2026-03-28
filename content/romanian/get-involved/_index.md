@@ -4,11 +4,12 @@ layout: single
 meta_title: "Implică-te — Diaspora Civică Berlin"
 description: "Alătură-te nouă și fă o diferență."
 draft: false
+intro_image: "/images/get-involved.png"
+intro_text: "Ești o persoană activă, implicată și interesată de proiecte pe teme civice, sociale sau culturale în comunitatea românească din Berlin? Diaspora Civică Berlin este o platformă în care poți să-ți concretizezi ideile, dezvolți spiritul civic și noi aptitudini, și să te implici activ pentru comunitate."
+intro_button: "Scrie-ne și hai să ne cunoaștem!"
 ---
 
-Ești o persoană activă, implicată și interesată de proiecte pe teme civice, sociale sau culturale în comunitatea românească din Berlin? Diaspora Civică Berlin este o platformă în care poți să-ți concretizezi ideile, dezvolți spiritul civic și noi aptitudini, și să te implici activ pentru comunitate.
-
-[**Scrie-ne și hai să ne cunoaștem!**](mailto:contact@diasporacivica.berlin)
+### Cum te poți implica?
 
 Devino membru/ă și contribuie cu expertiza și pasiunea ta.
 

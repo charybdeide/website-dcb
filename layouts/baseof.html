@@ -1,0 +1,73 @@
+<!doctype html>
+<html
+  itemscope
+  class="{{- if not site.Params.theme_switcher -}}
+    {{- site.Params.theme_default -}}
+  {{- end -}}"
+  lang="{{ site.LanguageCode | default `en-US` }}"
+  itemtype="http://schema.org/WebPage">
+  <head>
+    <!-- head (don't cache it) -->
+    {{ partial "essentials/head.html" . }}
+
+
+    <!-- style (always cache it) -->
+    {{ partialCached "essentials/style.html" . }}
+
+  </head>
+
+  <body>
+    <!-- cache partial only in production -->
+    {{ if hugo.IsProduction }}
+      {{ partialCached "preloader.html" . }}
+      {{ partialCached "gtm-noscript.html" . }}
+    {{ else }}
+      {{ partial "preloader.html" . }}
+
+
+      <!-- tailwind size indicator -->
+      {{ partial "components/tw-size-indicator.html" . }}
+    {{ end }}
+
+
+    <!-- announcement -->
+    {{ partialCached "announcement.html" . }}
+
+
+    <!-- header (don't cache it) -->
+    {{ partial "essentials/header.html" . }}
+    {{ partial "search-modal.html" (dict "Context" . ) }}
+
+
+    <main>
+      {{ block "main" . }}{{ end }}
+    </main>
+
+    <!-- footer -->
+    {{ partial "essentials/footer.html" . }}
+
+
+    <!-- script (always cache it) -->
+    {{ partialCached "essentials/script.html" . }}
+
+    <!-- header scroll effect -->
+    <style>
+      .header { transition: border-color 0.3s, backdrop-filter 0.3s, -webkit-backdrop-filter 0.3s; border-bottom: 1px solid transparent; }
+      .header-scrolled { border-bottom-color: #d2d2d2; backdrop-filter: blur(16px); -webkit-backdrop-filter: blur(16px); background-color: rgba(255, 255, 255, 0.6); }
+      .nav-link.active { color: var(--color-primary); }
+    </style>
+    <script>
+      (function() {
+        var header = document.querySelector(".header");
+        if (!header) return;
+        window.addEventListener("scroll", function() {
+          if (window.scrollY > 50) {
+            header.classList.add("header-scrolled");
+          } else {
+            header.classList.remove("header-scrolled");
+          }
+        });
+      })();
+    </script>
+  </body>
+</html>

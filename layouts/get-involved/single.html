@@ -1,0 +1,40 @@
+{{ define "main" }}
+  {{ partial "page-header" . }}
+
+  <!-- Intro section -->
+  {{ with .Params.intro_text }}
+  <section class="pb-4 pt-0">
+    <div class="container">
+      <div class="bg-light dark:bg-darkmode-light rounded-xl px-4 py-16 xl:p-20">
+        <div class="row items-center justify-between">
+          <div class="md:col-5 lg:col-4 mb-10 md:mb-0">
+            {{ partial "image" (dict "Src" $.Params.intro_image "Alt" $.Title "Class" "w-full rounded-lg") }}
+          </div>
+          <div class="md:col-7 md:col-6">
+            <p class="mb-8 text-lg">
+              {{ . | markdownify }}
+            </p>
+            <a class="btn btn-primary" href="mailto:contact@diasporacivica.berlin">
+              <i class="fa fa-envelope pr-2"></i>
+              {{ $.Params.intro_button | default "Scrie-ne" }}
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  {{ end }}
+
+  <!-- Page content -->
+  <section class="section-sm">
+    <div class="container">
+      <div class="row justify-center">
+        <div class="lg:col-10">
+          <div class="content">
+            {{ .Content }}
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+{{ end }}

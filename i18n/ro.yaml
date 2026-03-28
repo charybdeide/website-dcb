@@ -24,7 +24,9 @@
   translation: "pentru a închide"
 - id: gallery
   translation: "Galerie"
-- id: projects_upcoming
+- id: projects_all
+  translation: "Toate"
+- id: projects_ongoing
   translation: "Proiecte curente"
 - id: projects_past
   translation: "Proiecte anterioare"

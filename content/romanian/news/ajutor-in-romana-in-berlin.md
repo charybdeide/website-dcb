@@ -2,7 +2,6 @@
 title: "Ajutor în română în Berlin"
 date: 2022-10-10
 draft: false
-image: "/images/banner.jpg"
 categories: ["Articole"]
 ---
 

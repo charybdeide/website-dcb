@@ -26,48 +26,45 @@
 {{ end }}
 <!-- /Banner -->
 
-<!-- Features -->
-{{ range $i, $e:= .Params.features }}
-<section class="section-sm {{ if (modBool $i 2) }}bg-gradient{{ end }}">
+<!-- Intro -->
+{{ range .Params.intro }}
+<section class="pb-4 pt-0">
   <div class="container">
-    <div class="row items-center justify-between">
-      <div class="mb:md-0 {{ if not (modBool $i 2) }}
-              md:order-2
-            {{ end }} md:col-5 mb-6">
-        {{ partial "image" (dict "Src" .image "Alt" "feature image" "DisplayXL" "520x" "DisplayLG" "425x" "DisplayMD"
-        "360x") }}
-      </div>
-      <div class="{{ if not (modBool $i 2) }}
-              md:order-1
-            {{ end }} md:col-7 lg:col-6">
-        <h2 class="mb-4">
-          {{ .title | markdownify }}
-        </h2>
-        <p class="mb-8 text-lg">
-          {{ .content | markdownify }}
-        </p>
-        <ul>
-          {{ range .bulletpoints }}
-          <li class="relative mb-4 pl-6">
-            <i class="fa fa-check absolute left-0 top-1.5"></i>
-            {{ . | markdownify }}
-          </li>
+    <div class="bg-light dark:bg-darkmode-light rounded-xl px-4 py-16 xl:p-20">
+      <div class="row items-center justify-between">
+        <div class="md:col-5 lg:col-4 mb-10 md:mb-0">
+          {{ partial "image" (dict "Src" .image "Alt" "feature image" "Class" "w-full rounded-lg") }}
+        </div>
+        <div class="md:col-7 md:col-6">
+          <h2 class="mb-4">
+            {{ .title | markdownify }}
+          </h2>
+          <p class="mb-8 text-lg">
+            {{ .content | markdownify }}
+          </p>
+          <ul>
+            {{ range .bulletpoints }}
+            <li class="relative mb-4 pl-6">
+              <i class="fa fa-check absolute left-0 top-1.5"></i>
+              {{ . | markdownify }}
+            </li>
+            {{ end }}
+          </ul>
+          {{ with .button }}
+          {{ if .enable }}
+          <a class="btn btn-primary mt-6" href="{{ .link | relLangURL }}">
+            {{ .label }}
+            <i class="fa fa-arrow-right pl-2"></i>
+          </a>
           {{ end }}
-        </ul>
-        {{ with .button }}
-        {{ if .enable }}
-        <a class="btn btn-primary mt-6" href="{{ .link | relLangURL }}">
-          {{ .label }}
-          <i class="fa fa-arrow-right pl-2"></i>
-        </a>
-        {{ end }}
-        {{ end }}
+          {{ end }}
+        </div>
       </div>
     </div>
   </div>
 </section>
 {{ end }}
-<!-- /Features -->
+<!-- /Intro -->
 
 <!-- Projects Section with Carousel -->
 {{ with .Params.projects_section }}
@@ -87,7 +84,7 @@
     <div class="row mb-12">
       <div class="col-12">
         <div class="border border-black dark:border-white rounded-lg overflow-hidden relative" style="height: 22rem;">
-          <img src="{{ .image }}" alt="" class="w-full h-full object-cover" style="filter: blur(2px) brightness(1.15);" loading="lazy" />
+          <img src="{{ .image }}" alt="" class="w-full h-full object-cover" loading="lazy" />
           <div class="absolute inset-0 bg-white/70 flex flex-col items-center justify-center text-center p-8">
             {{ with .title }}<h3 class="text-black mb-4">{{ . }}</h3>{{ end }}
             <p class="text-black text-lg md:text-xl mb-6 max-w-2xl">{{ .description }}</p>
@@ -115,8 +112,7 @@
         <div class="swiper projects-slider">
           <div class="swiper-wrapper">
             {{ $projects := where site.RegularPages "Section" "projects" }}
-            {{ $projects = where $projects ".Params.ongoing" "!=" true }}
-            {{ range first 4 ($projects.ByDate.Reverse) }}
+            {{ range first 7 ($projects.ByDate.Reverse) }}
             <div class="swiper-slide h-auto">
               <div class="border border-black dark:border-white rounded-lg p-4 h-full">
                 {{ partial "components/project-card" . }}

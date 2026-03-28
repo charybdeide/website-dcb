@@ -2,7 +2,6 @@
 title: "Lansarea raportului despre votul în străinătate - comunicat"
 date: 2021-01-27
 draft: false
-image: "/images/banner.jpg"
 categories: ["Articole"]
 ---
 

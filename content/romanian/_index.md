@@ -7,8 +7,8 @@ banner:
     label: "Implică-te"
     link: "/get-involved/"
 
-features:
-  - title: "Cine suntem"
+intro:
+  - title: "Cine suntem."
     image: "/images/about-feature.jpg"
     content: "Diaspora Civică Berlin este o organizație civică informală, neafiliată politic, fondată în februarie 2017. Lucrăm pentru creșterea participării civice în comunitatea românească din Berlin și din Europa."
     button:

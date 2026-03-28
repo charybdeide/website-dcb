@@ -5,6 +5,7 @@ summaryLength = 20
 defaultContentLanguage = "ro"
 defaultContentLanguageInSubdir = false
 disableLanguages = []
+buildFuture = true
 
 [pagination]
   pagerSize = 12

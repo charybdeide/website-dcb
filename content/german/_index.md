@@ -8,7 +8,7 @@ banner:
     label: "Mitmachen"
     link: "/get-involved/"
 
-features:
+intro:
   - title: "Wer wir sind."
     image: "/images/about-feature.jpg"
     content: "Diaspora Civică Berlin ist eine informelle, politisch unabhängige Bürgerorganisation, die im Februar 2017 gegründet wurde. Wir setzen uns für eine stärkere Bürgerbeteiligung der rumänischen Gemeinschaft in Berlin und Europa ein."

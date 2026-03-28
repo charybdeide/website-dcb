@@ -2,7 +2,6 @@
 title: "Public Viewing România - Belgia"
 date: 2024-06-13
 draft: false
-image: "/images/banner.jpg"
 categories: ["Event"]
 ---
 

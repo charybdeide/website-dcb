@@ -10,7 +10,7 @@ theme_switcher = false
 theme_default = "system"
 
 # Section
-mainSections = ["blog"]
+mainSections = ["news"]
 
 # Contact info
 [contact_info]

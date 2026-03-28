@@ -12,7 +12,7 @@ gallery_images:
   - "/images/projects/galleries/mihail-sebastian-si-tinerii-cu-sufletul-de-crin/06.jpg"
 ---
 
-**“Mihail Sebastian ****și T****inerii cu Sufletul de Crin” **este un webcomic multimedia (ce îmbină banda desenată documentară, animația și muzica originală) ce își propune, pornind de la fragmente din jurnalul și opera autorului Mihail Sebastian, să documenteze decăderea democrației și ascensiunea extremismului în societatea românească în anii 1930 și 1940. Webcomicul se poate accesa pe site-ul [www.mihailsebastian.ro](http://www.mihailsebastian.ro) și a fost mixat live în cadrul a două evenimente, în Berlin si București. 
+**“Mihail Sebastian și Tinerii cu Sufletul de Crin”** este un webcomic multimedia (ce îmbină banda desenată documentară, animația și muzica originală) ce își propune, pornind de la fragmente din jurnalul și opera autorului Mihail Sebastian, să documenteze decăderea democrației și ascensiunea extremismului în societatea românească în anii 1930 și 1940. Webcomicul se poate accesa pe site-ul [www.mihailsebastian.ro](http://www.mihailsebastian.ro) și a fost mixat live în cadrul a două evenimente, în Berlin si București. 
 
 Deși România este țara care a avut mișcarea de extremă dreaptă cu cei mai mulți adepți pe cap de locuitor înainte de ascensiunea la putere (Mișcarea Legionară), este a doua țară din lume după Germania nazistă cu un partid oficial antisemit la conducere (Guvernul Goga-Cuza), și este responsabilă direct pentru moartea celui mai mare număr de evrei în timpul Holocaustului după Germania, istoria fascismului în România rămâne prea puțin cunoscută.
 

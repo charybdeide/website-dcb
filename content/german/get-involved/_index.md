@@ -4,11 +4,10 @@ layout: single
 meta_title: "Mitmachen — Diaspora Civică Berlin"
 description: "Machen Sie mit und bewirken Sie etwas."
 draft: false
+intro_image: "/images/get-involved.png"
+intro_text: "Sind Sie aktiv, engagiert und interessiert an zivilgesellschaftlichen, sozialen oder kulturellen Projekten in der rumänischen Gemeinschaft in Berlin? Diaspora Civică Berlin ist eine Plattform, auf der Sie Ihre Ideen in die Tat umsetzen, Ihren Bürgersinn und neue Fähigkeiten entwickeln und sich aktiv in der Gemeinschaft engagieren können."
+intro_button: "Schreiben Sie uns und lernen wir uns kennen!"
 ---
-
-Sind Sie aktiv, engagiert und interessiert an zivilgesellschaftlichen, sozialen oder kulturellen Projekten in der rumänischen Gemeinschaft in Berlin? Diaspora Civică Berlin ist eine Plattform, auf der Sie Ihre Ideen in die Tat umsetzen, Ihren Bürgersinn und neue Fähigkeiten entwickeln und sich aktiv in der Gemeinschaft engagieren können.
-
-**Bitte schreiben Sie uns und lassen Sie uns einander kennenlernen!**
 
 Werden Sie Mitglied und bringen Sie Ihr Fachwissen und Ihre Leidenschaft ein.
 

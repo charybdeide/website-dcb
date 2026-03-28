@@ -24,7 +24,9 @@
   translation: "to close"
 - id: gallery
   translation: "Gallery"
-- id: projects_upcoming
-  translation: "Upcoming Projects"
+- id: projects_all
+  translation: "All"
+- id: projects_ongoing
+  translation: "Ongoing Projects"
 - id: projects_past
   translation: "Past Projects"

@@ -2,7 +2,6 @@
 title: "DC Debate"
 date: 2018-12-21
 draft: false
-image: "/images/banner.jpg"
 categories: ["What"]
 ---
 

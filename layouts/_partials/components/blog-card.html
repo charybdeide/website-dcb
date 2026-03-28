@@ -1,13 +1,13 @@
-<div class="bg-body dark:bg-darkmode-body">
-  {{ $image:= .Params.image }}
-  {{ if $image }}
-    {{ partial "image" (dict "Src" $image "Context" .Page "Alt" .Title "Class" "mb-6 w-full rounded") }}
-  {{ end }}
-  <h4 class="mb-3">
+<div class="bg-body dark:bg-darkmode-body h-full flex flex-col">
+  {{ $image:= .Params.image | default "/images/fallback.png" }}
+  <div class="mb-6 h-64 overflow-hidden rounded">
+    <img src="{{ $image | absURL }}" alt="{{ .Title }}" class="h-full w-full object-cover" loading="lazy" />
+  </div>
+  <h6 class="mb-3">
     <a href="{{ .RelPermalink }}">
       {{ .Title }}
     </a>
-  </h4>
+  </h6>
   {{ $categories:= .Params.categories }}
   {{ if $categories }}
     <ul class="mb-4">
@@ -29,8 +29,8 @@
       </li>
     </ul>
   {{ end }}
-  <p class="mb-6">{{ .Summary | plainify }}</p>
-  <a class="btn btn-outline-primary btn-sm" href="{{ .RelPermalink }}">
+  <p class="mb-6 flex-grow">{{ .Summary | plainify | truncate 150 }}</p>
+  <a class="btn btn-outline-primary btn-sm self-center" href="{{ .RelPermalink }}">
     {{ T "read_more" | default "Read More" }}
   </a>
 </div>

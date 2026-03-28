@@ -4,11 +4,10 @@ layout: single
 meta_title: "Get Involved — Diaspora Civică Berlin"
 description: "Join us and make a difference. Discover how you can contribute to civic life."
 draft: false
+intro_image: "/images/get-involved.png"
+intro_text: "Are you active, engaged, and interested in civic, social, or cultural projects in the Romanian community in Berlin? Diaspora Civică Berlin is a platform where you can put your ideas into practice, develop your civic spirit and new skills, and get actively involved in the community."
+intro_button: "Write to us and let's get to know each other!"
 ---
-
-Are you active, engaged, and interested in civic, social, or cultural projects in the Romanian community in Berlin? Diaspora Civică Berlin is a platform where you can put your ideas into practice, develop your civic spirit and new skills, and get actively involved in the community.
-
-**Please write to us and let's get to know each other!**
 
 Become a member and contribute your expertise and passion.
 

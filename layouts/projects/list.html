@@ -1,0 +1,39 @@
+{{ define "main" }}
+  {{ partial "page-header" . }}
+
+  <!-- Upcoming / Ongoing -->
+  {{ $ongoing := where .RegularPages ".Params.ongoing" true }}
+  {{ with $ongoing }}
+    <section class="section pb-0">
+      <div class="container">
+        <h2 class="h3 mb-12">{{ T "projects_upcoming" | default "Upcoming Projects" }}</h2>
+        <div class="row">
+          {{ range . }}
+            <div class="md:col-6 lg:col-4 mb-14">
+              {{ partial "components/project-card" . }}
+            </div>
+          {{ end }}
+        </div>
+      </div>
+    </section>
+  {{ end }}
+
+  <!-- Past Projects -->
+  {{ $past := where .RegularPages ".Params.ongoing" "!=" true }}
+  <section class="section">
+    <div class="container">
+      {{ if $ongoing }}
+        <h2 class="h3 mb-12">{{ T "projects_past" | default "Past Projects" }}</h2>
+      {{ end }}
+      <div class="row">
+        {{ $paginator := .Paginate $past }}
+        {{ range $paginator.Pages }}
+          <div class="md:col-6 lg:col-4 mb-14">
+            {{ partial "components/project-card" . }}
+          </div>
+        {{ end }}
+      </div>
+      {{ partial "components/pagination.html" . }}
+    </div>
+  </section>
+{{ end }}

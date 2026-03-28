@@ -22,3 +22,9 @@
   translation: "pentru a selecta"
 - id: search_close
   translation: "pentru a închide"
+- id: gallery
+  translation: "Galerie"
+- id: projects_upcoming
+  translation: "Proiecte curente"
+- id: projects_past
+  translation: "Proiecte anterioare"

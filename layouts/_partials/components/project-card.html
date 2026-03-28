@@ -1,0 +1,21 @@
+<div class="bg-body dark:bg-darkmode-body h-full flex flex-col">
+  {{ $image := .Params.image | default "/images/projects-fallback.png" }}
+  <div class="mb-6 h-64 overflow-hidden rounded">
+    <img src="{{ $image | absURL }}" alt="{{ .Title }}" class="h-full w-full object-cover" loading="lazy" />
+  </div>
+  <h4 class="mb-3">
+    <a href="{{ .RelPermalink }}">
+      {{ .Title }}
+    </a>
+  </h4>
+  <ul class="mb-4">
+    <li class="mr-4 inline-block">
+      <i class="fa-regular fa-calendar mr-1"></i>
+      <time datetime="{{ .Date.Format " 2006-01-02" }}">{{ .Date.Format "02 Jan 2006" }}</time>
+    </li>
+  </ul>
+  <p class="mb-6 flex-grow">{{ .Summary | plainify | truncate 150 }}</p>
+  <a class="btn btn-outline-primary btn-sm self-start" href="{{ .RelPermalink }}">
+    {{ T "read_more" | default "Read More" }}
+  </a>
+</div>

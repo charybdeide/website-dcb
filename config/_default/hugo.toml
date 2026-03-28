@@ -1,7 +1,8 @@
 ######################## default configuration ####################
 baseURL = "https://diasporacivica.berlin/"
 title = "Diaspora Civică Berlin"
-paginate = 9
+[pagination]
+  pagerSize = 12
 summaryLength = 20
 defaultContentLanguage = "ro"
 defaultContentLanguageInSubdir = false

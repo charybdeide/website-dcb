@@ -22,3 +22,9 @@
   translation: "zum Auswählen"
 - id: search_close
   translation: "zum Schließen"
+- id: gallery
+  translation: "Galerie"
+- id: projects_upcoming
+  translation: "Aktuelle Projekte"
+- id: projects_past
+  translation: "Vergangene Projekte"

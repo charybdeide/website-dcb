@@ -3,21 +3,52 @@
 
   <!-- Intro section -->
   {{ with .Params.intro_text }}
-  <section class="pb-4 pt-0">
+  <section class="section-sm pb-4">
+    <div class="container">
+      <div class="row items-center justify-between">
+        <div class="mb:md-0 md:col-5 mb-6">
+          {{ partial "image" (dict "Src" $.Params.intro_image "Alt" $.Title "DisplayXL" "520x" "DisplayLG" "425x" "DisplayMD" "360x") }}
+        </div>
+        <div class="md:col-7 lg:col-6">
+          <h2 class="mb-4">
+            {{ $.Params.intro_title | default $.Title | markdownify }}
+          </h2>
+          <p class="mb-8 text-lg">
+            {{ . | markdownify }}
+          </p>
+          <ul>
+            {{ range $.Params.intro_bulletpoints }}
+            <li class="relative mb-4 pl-6">
+              <span class="absolute left-0 top-2.5 w-2 h-2 rounded-full bg-primary inline-block"></span>
+              {{ . | markdownify }}
+            </li>
+            {{ end }}
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  {{ end }}
+
+  <!-- Section 2: CTA-style card -->
+  {{ with .Params.section2_title }}
+  <section class="section-sm pt-4">
     <div class="container">
       <div class="bg-light dark:bg-darkmode-light rounded-xl px-4 py-16 xl:p-20">
-        <div class="row items-center justify-between">
-          <div class="md:col-5 lg:col-4 mb-10 md:mb-0">
-            {{ partial "image" (dict "Src" $.Params.intro_image "Alt" $.Title "Class" "w-full rounded-lg") }}
-          </div>
-          <div class="md:col-7 md:col-6">
-            <p class="mb-8 text-lg">
+        <div class="row justify-center">
+          <div class="lg:col-10">
+            <h2 class="mb-4">
               {{ . | markdownify }}
+            </h2>
+            <p class="mb-8 text-lg">
+              {{ $.Params.section2_text | markdownify }}
             </p>
-            <a class="btn btn-primary" href="mailto:contact@diasporacivica.berlin">
-              <i class="fa fa-envelope pr-2"></i>
+            <ul>
+            <a class="btn btn-primary mt-6" href="mailto:contact@diasporacivica.berlin">
+              <i class="fa-regular fa-envelope pr-2"></i>
               {{ $.Params.intro_button | default "Scrie-ne" }}
             </a>
+            </ul>
           </div>
         </div>
       </div>
@@ -25,16 +56,22 @@
   </section>
   {{ end }}
 
-  <!-- Page content -->
-  <section class="section-sm">
+  <!-- Contact section -->
+  {{ with .Params.contact_title }}
+  <section class="section-sm pt-4">
     <div class="container">
+      <h2 class="mb-12 text-center">{{ . | markdownify }}</h2>
       <div class="row justify-center">
-        <div class="lg:col-10">
-          <div class="content">
-            {{ .Content }}
-          </div>
+        {{ range $.Params.contact_channels }}
+        <div class="md:col-4 mb-8 text-center">
+          <a href="{{ .link }}" {{ if not (hasPrefix .link "mailto:") }}target="_blank" rel="noopener"{{ end }} class="group">
+            <i class="{{ .icon }} text-4xl text-primary mb-4 inline-block group-hover:scale-110 transition-transform"></i>
+            <p class="text-lg font-semibold">{{ .label }}</p>
+          </a>
         </div>
+        {{ end }}
       </div>
     </div>
   </section>
+  {{ end }}
 {{ end }}

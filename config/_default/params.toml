@@ -19,7 +19,7 @@ mainSections = ["news"]
   email = "contact@diasporacivica.berlin"
 
 # Copyright
-copyright = "© 2024 Diaspora Civică Berlin — Rumänische Diaspora Initiative e.V."
+copyright = "© 2025 Diaspora Civică Berlin — Rumänische Diaspora Initiative e.V."
 
 # Social links
 [[social]]
@@ -39,7 +39,7 @@ copyright = "© 2024 Diaspora Civică Berlin — Rumänische Diaspora Initiative
 
 # Search
 [search]
-  enable = true
+  enable = false
   primary_color = "#E2382A"
   show_image = true
   show_description = true
@@ -64,6 +64,18 @@ copyright = "© 2024 Diaspora Civică Berlin — Rumänische Diaspora Initiative
   sidebar = ["categories", "tags"]
 
 # Plugins
+[[plugins.css]]
+  link = "plugins/font-awesome/v6/icons.css"
+
+[[plugins.css]]
+  link = "plugins/font-awesome/v6/solid.css"
+
+[[plugins.css]]
+  link = "plugins/font-awesome/v6/regular.css"
+
+[[plugins.css]]
+  link = "plugins/font-awesome/v6/brands.css"
+
 [[plugins.css]]
   link = "plugins/swiper/swiper-bundle.css"
 

@@ -6,6 +6,7 @@ defaultContentLanguage = "ro"
 defaultContentLanguageInSubdir = false
 disableLanguages = []
 buildFuture = true
+copyright = "© 2025 Diaspora Civică Berlin — Rumänische Diaspora Initiative e.V."
 
 [pagination]
   pagerSize = 12

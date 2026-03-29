@@ -1,5 +1,6 @@
 ---
-title: "”Legislație electorală pentru Diaspora\" - dezbatere în Parlament - comunicat"
+title: “”Legislație electorală pentru Diaspora\” - dezbatere în Parlament - comunicat”
+description: “Comunicat după dezbaterea parlamentară pe tema legislației electorale pentru diaspora, organizată de grupul USR PLUS în mai 2021.”
 date: 2021-05-21
 image: "/images/wp-content/2021/05/185316191_2791196904524866_3662326395967789854_n.png"
 draft: false

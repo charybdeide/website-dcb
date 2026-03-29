@@ -1,5 +1,6 @@
 ---
 title: "Alegeri Europarlamentare 9 Iunie 2024"
+description: "Ghid pentru cetățenii români din Germania: cum votezi la alegerile europarlamentare din 9 iunie 2024, pentru România sau Germania."
 date: 2024-05-26
 draft: false
 categories: ["Articole"]

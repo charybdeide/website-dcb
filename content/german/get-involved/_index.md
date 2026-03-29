@@ -4,7 +4,7 @@ layout: single
 meta_title: "Mitmachen — Diaspora Civică Berlin"
 description: "Machen Sie mit und bewirken Sie etwas."
 draft: false
-intro_image: "/images/get-involved.png"
+intro_image: "/images/get-involved.jpg"
 intro_text: "Sind Sie aktiv und interessiert an zivilgesellschaftlichen, sozialen oder kulturellen Projekten in der rumänischen Gemeinschaft in Berlin? Diaspora Civică Berlin ist eine Plattform, auf der Sie Ihre Ideen verwirklichen und Ihren Bürgersinn entwickeln können."
 intro_title: "Warum DCB?"
 intro_bulletpoints:

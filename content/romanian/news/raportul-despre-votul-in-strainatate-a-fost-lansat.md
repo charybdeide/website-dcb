@@ -1,5 +1,6 @@
 ---
 title: "Raportul despre votul in strainatate a fost lansat"
+description: "Lansarea raportului Votul în Străinătate - Alegerile Parlamentare 2020, realizat de DCB și alte organizații din diaspora."
 date: 2021-02-20
 image: "/images/wp-content/2021/02/Screenshot-from-2021-02-05-18.12.55_modified-1.png"
 draft: false

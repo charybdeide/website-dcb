@@ -84,8 +84,8 @@
     <div class="row mb-12">
       <div class="col-12">
         <div class="border border-black dark:border-white rounded-lg overflow-hidden relative" style="height: 22rem;">
-          <img src="{{ .image }}" alt="" class="w-full h-full object-cover" loading="lazy" />
-          <img src="/images/circle-flag.svg" alt="" class="absolute top-6 right-6 w-12 h-12 z-10" />
+          <img src="{{ .image }}" alt="{{ .title }}" class="w-full h-full object-cover" loading="lazy" />
+          <img src="/images/circle-flag.svg" alt="Romanian flag" class="absolute top-6 right-6 w-12 h-12 z-10" />
           <div class="absolute inset-0 bg-white/70 flex flex-col items-center justify-center text-center p-8">
             {{ with .title }}<h3 class="text-black mb-4">{{ . }}</h3>{{ end }}
             <p class="text-black text-lg md:text-xl mb-6 max-w-2xl">{{ .description }}</p>

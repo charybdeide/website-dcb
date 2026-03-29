@@ -1,5 +1,6 @@
 ---
 title: "Diaspora Civică Berlin: La început am fost 4 oameni cu o pancartă..."
+description: "Povestea inițiativei Diaspora Civică Berlin, de la protestele OUG 13 la implicarea civică permanentă."
 date: 2017-03-09
 image: "/images/wp-content/2017/12/Proteste-Romania-Berlin.jpg"
 draft: false

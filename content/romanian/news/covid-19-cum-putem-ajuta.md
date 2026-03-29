@@ -1,5 +1,6 @@
 ---
 title: "Covid-19 - Cum putem să ajutăm?"
+description: "Listă de organizații și inițiative din România și Germania unde puteți dona sau face voluntariat în contextul pandemiei Covid-19."
 date: 2020-04-05
 image: "/images/wp-content/2020/04/Covid-19-e1587976326108.png"
 draft: false

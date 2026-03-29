@@ -4,7 +4,7 @@ layout: single
 meta_title: "Implică-te — Diaspora Civică Berlin"
 description: "Alătură-te nouă și fă o diferență."
 draft: false
-intro_image: "/images/get-involved.png"
+intro_image: "/images/get-involved.jpg"
 intro_text: "Ești o persoană activă și interesată de proiecte pe teme civice, sociale sau culturale în comunitatea românească din Berlin? Diaspora Civică Berlin este o platformă în care poți să-ți concretizezi ideile si sa iti dezvolți spiritul civic."
 intro_title: "De Ce DCB?"
 intro_bulletpoints:

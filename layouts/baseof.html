@@ -11,6 +11,10 @@
     {{ partial "essentials/head.html" . }}
 
 
+    <!-- structured data -->
+    {{ partialCached "schema-organization.html" . }}
+    {{ if not .IsHome }}{{ partial "schema-breadcrumb.html" . }}{{ end }}
+
     <!-- style (always cache it) -->
     {{ partialCached "essentials/style.html" . }}
 

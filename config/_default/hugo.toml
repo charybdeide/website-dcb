@@ -55,6 +55,11 @@ copyright = "© 2025 Diaspora Civică Berlin — Rumänische Diaspora Initiative
   category = "categories"
   tag = "tags"
 
+# Minification
+[minify]
+  disableXML = true
+  minifyOutput = true
+
 # Build (needed for Tailwind CSS tree-shaking)
 [build]
   [build.buildStats]

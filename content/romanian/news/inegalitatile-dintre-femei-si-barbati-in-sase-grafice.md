@@ -1,5 +1,6 @@
 ---
 title: "Inegalitățile dintre femei și bărbați în șase grafice"
+description: "Infografice despre inegalitățile de gen în România, Germania și UE, create de DCB de Ziua Femeii."
 date: 2019-03-10
 image: "/images/wp-content/2019/03/8-martie-2019-02.jpg"
 draft: false

@@ -10,6 +10,12 @@
           <i class="fa-solid fa-location-dot text-primary mr-2"></i>
           {{ .Params.address }}
         </p>
+        {{ with site.Params.contact_info.phone }}
+        <p class="text-lg text-text-light mt-2">
+          <i class="fa-solid fa-phone text-primary mr-2"></i>
+          <a href="tel:{{ . }}">{{ . }}</a>
+        </p>
+        {{ end }}
       </div>
 
       <!-- Contact channels -->

@@ -1,5 +1,6 @@
 ---
 title: "Diaspora Civică Berlin invitată la ICD"
+description: "DCB a participat la o discuție despre protestele din România la Institute for Cultural Diplomacy din Berlin."
 date: 2019-02-08
 image: "/images/wp-content/2019/02/Diaspora_Civica_Berlin_la_ICD.jpg"
 draft: false

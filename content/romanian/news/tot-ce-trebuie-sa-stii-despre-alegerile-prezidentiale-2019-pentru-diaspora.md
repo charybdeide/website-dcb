@@ -1,5 +1,6 @@
 ---
 title: "Tot ce trebuie să știi despre alegerile prezidențiale 2019 pentru diaspora"
+description: "Ghid practic pentru diaspora despre votul la alegerile prezidențiale 2019: corespondență, secții din străinătate și documente necesare."
 date: 2019-08-18
 image: "/images/wp-content/2019/08/DIASPORA-VOTEAZA-3.png"
 draft: false

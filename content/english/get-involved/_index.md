@@ -4,7 +4,7 @@ layout: single
 meta_title: "Get Involved — Diaspora Civică Berlin"
 description: "Join us and make a difference. Discover how you can contribute to civic life."
 draft: false
-intro_image: "/images/get-involved.png"
+intro_image: "/images/get-involved.jpg"
 intro_text: "Are you an active person interested in civic, social, or cultural projects in the Romanian community in Berlin? Diaspora Civică Berlin is a platform where you can bring your ideas to life and develop your civic spirit."
 intro_title: "Why DCB?"
 intro_bulletpoints:

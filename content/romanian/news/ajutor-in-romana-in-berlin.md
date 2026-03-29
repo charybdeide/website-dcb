@@ -1,5 +1,6 @@
 ---
 title: "Ajutor în română în Berlin"
+description: "Lista organizațiilor din Berlin care oferă consiliere gratuită în limba română pentru cetățenii europeni din Germania."
 date: 2022-10-10
 draft: false
 categories: ["Articole"]

@@ -1,5 +1,6 @@
 ---
 title: "Update - Septembrie 2023"
+description: "Noutăți DCB din septembrie 2023: Harta Diasporei 2.0, rețeaua Ost Allianz Berlin și cercetare despre filantropie în diaspora."
 date: 2023-09-28
 image: "/images/wp-content/2023/09/Tagung-12.09.23-Diaspora-Civica-e.V.-2-1-scaled.jpg"
 draft: false

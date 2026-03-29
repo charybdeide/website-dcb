@@ -1,4 +1,9 @@
 ---
+title: "Diaspora Civică Berlin"
+meta_title: "Diaspora Civică Berlin — Participare civică în diaspora românească"
+description: "Contribuim la o societate în care cetățenii se organizează, își cunosc și exercită drepturile și responsabilitățile. Educație civică, proiecte comunitare și advocacy în Berlin."
+image: "/images/fallback.png"
+
 banner:
   title: "Diaspora Civică Berlin."
   content: "Contribuim la o societate în care cetățenii se organizează, își cunosc și exercită drepturile și responsabilitățile."

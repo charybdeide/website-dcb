@@ -1,5 +1,6 @@
 ---
 title: "DC pentru mari și mici"
+description: "Workshopuri și activități civice pentru părinți și copii, organizate de Diaspora Civică Berlin."
 date: 2017-12-27
 draft: false
 categories: ["Ce"]

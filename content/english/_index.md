@@ -1,4 +1,9 @@
 ---
+title: "Diaspora Civică Berlin"
+meta_title: "Diaspora Civică Berlin — Romanian Civic Engagement in Germany"
+description: "We contribute to a society where citizens organize and exercise their rights and responsibilities. Civic education, community projects and advocacy in Berlin."
+image: "/images/fallback.png"
+
 banner:
   title: "Diaspora Civică Berlin."
   content: "Diaspora Civică Berlin (DCB) is an NGO born out of the massive street protests that took place in Romania and in Germany in February 2017. We advocate for an increased civic and political engagement of the Romanian community in Berlin and in Germany."

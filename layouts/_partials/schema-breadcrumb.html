@@ -1,0 +1,24 @@
+{{- $ancestors := .Ancestors.Reverse -}}
+{{- if gt (len $ancestors) 0 -}}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {{- range $i, $p := $ancestors }}
+    {
+      "@type": "ListItem",
+      "position": {{ add $i 1 }},
+      "name": "{{ cond (eq $p.Kind "home") site.Title $p.Title }}",
+      "item": "{{ $p.Permalink }}"
+    },
+    {{- end }}
+    {
+      "@type": "ListItem",
+      "position": {{ add (len $ancestors) 1 }},
+      "name": "{{ .Title }}"
+    }
+  ]
+}
+</script>
+{{- end -}}

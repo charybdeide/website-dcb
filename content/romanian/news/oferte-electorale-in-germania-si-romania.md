@@ -1,5 +1,6 @@
 ---
 title: "Oferte electorale în Germania și România"
+description: "Comparație între legislația electorală din Germania și România pentru europarlamentare, cu accent pe accesul partidelor mici la scrutin."
 date: 2019-09-24
 image: "/images/wp-content/2019/09/Untitled-design-13.png"
 draft: false

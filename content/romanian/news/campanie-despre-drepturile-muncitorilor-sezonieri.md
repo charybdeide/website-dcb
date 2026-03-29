@@ -1,5 +1,6 @@
 ---
 title: "Campanie despre drepturile muncitorilor sezonieri"
+description: "Resurse și linii de ajutor pentru muncitorii sezonieri români din Germania în contextul pandemiei de coronavirus."
 date: 2020-05-02
 image: "/images/wp-content/2020/09/95709340_2651417198432009_2193119608255283200_o.jpg"
 draft: false

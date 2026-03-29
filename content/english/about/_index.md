@@ -4,6 +4,24 @@ layout: single
 meta_title: "About — Diaspora Civică Berlin"
 description: "Learn about Diaspora Civică Berlin, our mission, vision and values."
 draft: false
+values:
+  title: "Our Values."
+  items:
+    - icon: "fas fa-hands-helping"
+      title: "Collegiality"
+      description: "At the core of DCB lies a mutual appreciation and respect that is reflected in the way we work together."
+    - icon: "fas fa-podcast"
+      title: "Integrity"
+      description: "At DCB we say what we think, do what we say, and take responsibility for what we do."
+    - icon: "far fa-id-badge"
+      title: "Transparency"
+      description: "At DCB we are direct and honest with each other. Our activities and way of working are transparent and accessible to anyone interested."
+    - icon: "fas fa-puzzle-piece"
+      title: "Responsibility"
+      description: "At DCB we take responsibility for the content of our events and projects, and for the way we collaborate with our partners and supporters. We feel socially responsible, and this is the basis of our civic engagement."
+    - icon: "fas fa-users"
+      title: "Solidarity"
+      description: "At DCB we stand by each other, helping and supporting within the team. More broadly, we stand in solidarity with other Romanian citizens in the diaspora, for whom we develop meetings, events, and projects."
 ---
 
 {{< youtube msG75zWpXyM >}}

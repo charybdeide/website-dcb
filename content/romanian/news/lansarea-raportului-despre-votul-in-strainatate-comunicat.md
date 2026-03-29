@@ -1,5 +1,6 @@
 ---
 title: "Lansarea raportului despre votul în străinătate - comunicat"
+description: "Prezentarea Raportului despre Votul în Străinătate, realizat de DCB și parteneri, către instituțiile electorale."
 date: 2021-01-27
 draft: false
 categories: ["Articole"]

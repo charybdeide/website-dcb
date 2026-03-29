@@ -35,7 +35,16 @@ copyright = "© 2025 Diaspora Civică Berlin — Rumänische Diaspora Initiative
 # Metadata
 [metadata]
   meta_author = "Diaspora Civică Berlin"
+  meta_image = "/images/fallback.png"
   meta_description = "Diaspora Civică Berlin — Rumänische Diaspora Initiative e.V."
+
+# Site Verification (uncomment and add your codes)
+# [site_verification]
+#   google = ""
+#   bing = ""
+
+# Google Tag Manager (uncomment and add your container ID)
+# google_tag_manager = "GTM-XXXXXXX"
 
 # Search
 [search]

@@ -1,5 +1,6 @@
 ---
 title: "Diaspora față în față cu parlamentari - o analiză"
+description: "Analiză a dezbaterii publice organizate de DCB cu parlamentari USR și PMP pe teme de diaspora și guvernare."
 date: 2018-11-12
 image: "/images/wp-content/2018/10/Diaspora-Civica-Berlin_Fata-in-fata-cu-parlamentari_2018-2-1.jpg"
 draft: false

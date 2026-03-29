@@ -1,5 +1,6 @@
 ---
 title: "DC Film"
+description: "Seri de film și discuții moderate pe teme civice organizate de Diaspora Civică Berlin, deschise tuturor."
 date: 2017-12-27
 draft: false
 categories: ["Ce"]

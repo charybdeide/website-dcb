@@ -1,0 +1,37 @@
+{{- $image := .Params.image | default site.Params.metadata.meta_image -}}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "{{ .Title }}",
+  "url": "{{ .Permalink }}",
+  {{- with .Description }}
+  "description": "{{ . }}",
+  {{- end }}
+  {{- with $image }}
+  "image": "{{ site.BaseURL }}{{ strings.TrimPrefix "/" . }}",
+  {{- end }}
+  "datePublished": "{{ .PublishDate.Format "2006-01-02T15:04:05Z07:00" }}",
+  {{- with .Lastmod }}
+  "dateModified": "{{ .Format "2006-01-02T15:04:05Z07:00" }}",
+  {{- end }}
+  "author": {
+    "@type": "Organization",
+    "name": "Diaspora Civică Berlin",
+    "url": "{{ site.BaseURL }}"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Diaspora Civică Berlin",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "{{ site.BaseURL }}images/logo.png"
+    }
+  },
+  "inLanguage": "{{ site.LanguageCode }}",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "{{ .Permalink }}"
+  }
+}
+</script>

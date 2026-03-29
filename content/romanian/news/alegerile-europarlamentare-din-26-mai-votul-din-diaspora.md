@@ -1,5 +1,6 @@
 ---
 title: "Alegerile europarlamentare din 26 mai - votul din diaspora"
+description: "Informații despre votul din diaspora la alegerile europarlamentare din 26 mai 2019, pentru România sau Germania."
 date: 2019-04-29
 image: "/images/wp-content/2019/04/european_union_flag.jpg"
 draft: false

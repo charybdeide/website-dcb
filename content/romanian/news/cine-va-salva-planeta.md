@@ -1,5 +1,6 @@
 ---
 title: "Cine va salva planeta?"
+description: "Tineri din Berlin, Lisabona și alte orașe au protestat pe 15 martie 2019 în cadrul mișcării FridaysForFuture împotriva schimbărilor climatice."
 date: 2019-03-15
 image: "/images/wp-content/2019/03/DSC05615.jpg"
 draft: false

@@ -14,9 +14,19 @@
     <!-- style (always cache it) -->
     {{ partialCached "essentials/style.html" . }}
 
+    <!-- header scroll effect styles (in head to prevent FOUC) -->
+    <style>
+      body { opacity: 0; }
+      body.loaded { opacity: 1; transition: opacity 0.1s; }
+      .header { background-color: #fff; border-bottom: 1px solid transparent !important; }
+      .header-scrolled { border-bottom-color: #d2d2d2 !important; backdrop-filter: blur(16px); -webkit-backdrop-filter: blur(16px); background-color: rgba(255, 255, 255, 0.6); transition: border-bottom-color 0.3s, backdrop-filter 0.3s, -webkit-backdrop-filter 0.3s, background-color 0.3s; }
+      .nav-link.active { color: var(--color-primary); }
+    </style>
+
   </head>
 
   <body>
+    <script>document.body.classList.add('loaded');</script>
     <!-- cache partial only in production -->
     {{ if hugo.IsProduction }}
       {{ partialCached "preloader.html" . }}
@@ -50,12 +60,7 @@
     <!-- script (always cache it) -->
     {{ partialCached "essentials/script.html" . }}
 
-    <!-- header scroll effect -->
-    <style>
-      .header { transition: border-color 0.3s, backdrop-filter 0.3s, -webkit-backdrop-filter 0.3s; border-bottom: 1px solid transparent; }
-      .header-scrolled { border-bottom-color: #d2d2d2; backdrop-filter: blur(16px); -webkit-backdrop-filter: blur(16px); background-color: rgba(255, 255, 255, 0.6); }
-      .nav-link.active { color: var(--color-primary); }
-    </style>
+    <!-- header scroll script -->
     <script>
       (function() {
         var header = document.querySelector(".header");

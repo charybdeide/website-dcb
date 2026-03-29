@@ -3,16 +3,16 @@ title: "Contact."
 meta_title: "Contact — Diaspora Civică Berlin"
 description: "Get in touch with Diaspora Civică Berlin."
 draft: false
+subtitle: "DCB - Rumänische Diaspora Initiative e.V."
+address: "c/o Bunescu, Oderstrasse 16, 10247 Berlin, Germany"
+contact_channels:
+  - icon: "fa-regular fa-envelope"
+    label: "contact@diasporacivica.berlin"
+    link: "mailto:contact@diasporacivica.berlin"
+  - icon: "fa-brands fa-facebook"
+    label: "@diasporacivicaberlin"
+    link: "https://www.facebook.com/diasporacivicaberlin"
+  - icon: "fa-brands fa-instagram"
+    label: "diasporacivicaberlin"
+    link: "https://www.instagram.com/diasporacivicaberlin/"
 ---
-
-## Contact Information.
-
-**DCB - Rumänische Diaspora Initiative e.V.**
-
-- **Address:** c/o Bunescu, Oderstrasse 16, 10247 Berlin, Germany
-- **Email:** [contact@diasporacivica.berlin](mailto:contact@diasporacivica.berlin)
-
-### Follow Us
-
-- [Facebook](https://www.facebook.com/diasporacivicaberlin)
-- [Instagram](https://www.instagram.com/diasporacivicaberlin)

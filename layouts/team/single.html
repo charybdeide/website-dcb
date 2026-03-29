@@ -1,0 +1,35 @@
+{{ define "main" }}
+  <section class="section-sm pb-0">
+    <div class="container">
+      <div class="row justify-center border-border dark:border-darkmode-border border-b pb-14">
+        <div class="lg:col-4 text-center">
+          {{ $image := .Params.image }}
+          {{ if $image }}
+            <div class="mx-auto w-48 h-48 overflow-hidden rounded-full mb-6">
+              <img src="{{ $image }}" alt="{{ .Title }}" class="w-full h-full object-cover" loading="lazy" />
+            </div>
+          {{ end }}
+          <h1 class="h3 mt-4">{{ .Title }}</h1>
+          {{ with .Params.role }}
+            <p class="text-text-light mt-2">{{ . }}</p>
+          {{ end }}
+          <div class="content mt-6">
+            {{ .Content }}
+          </div>
+          {{ with .Params.social }}
+          <ul class="social-icons mt-10 text-center">
+            {{ range . }}
+              <li>
+                <a href="{{ .link | safeURL }}" target="_blank" rel="noopener nofollow">
+                  <span class="sr-only">{{ .title }}</span>
+                  <i class="{{ .icon }}"></i>
+                </a>
+              </li>
+            {{ end }}
+          </ul>
+          {{ end }}
+        </div>
+      </div>
+    </div>
+  </section>
+{{ end }}

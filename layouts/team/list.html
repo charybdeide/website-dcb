@@ -1,0 +1,40 @@
+{{ define "main" }}
+  {{ partial "page-header" . }}
+
+  <section class="section">
+    <div class="container">
+      <div class="row">
+        {{ range sort .RegularPages "Params.weight" "asc" }}
+          <div class="md:col-6 lg:col-3 mb-14">
+            <div class="bg-light dark:bg-darkmode-light rounded p-8 text-center h-full">
+              {{ $image := .Params.image }}
+              {{ if $image }}
+                <div class="mx-auto mb-6 w-28 h-28 overflow-hidden rounded-full">
+                  <img src="{{ $image }}" alt="{{ .Title }}" class="w-full h-full object-cover" loading="lazy" />
+                </div>
+              {{ end }}
+              <h5 class="mb-3">
+                <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+              </h5>
+              {{ with .Params.role }}
+                <p class="text-sm text-text-light mb-3">{{ . }}</p>
+              {{ end }}
+              <p class="mb-4 text-sm">
+                {{ .Summary | plainify | truncate 100 }}
+              </p>
+              {{ if .Params.cta_link }}
+              <a class="btn btn-primary btn-sm" href="{{ .Params.cta_link | relLangURL }}">
+                {{ .Params.cta_label | default (T "read_more") | default "Read More" }}
+              </a>
+              {{ else }}
+              <a class="btn btn-outline-primary btn-sm" href="{{ .RelPermalink }}">
+                {{ T "read_more" | default "Read More" }}
+              </a>
+              {{ end }}
+            </div>
+          </div>
+        {{ end }}
+      </div>
+    </div>
+  </section>
+{{ end }}

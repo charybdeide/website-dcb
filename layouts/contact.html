@@ -3,12 +3,25 @@
 
   <section class="section-sm">
     <div class="container">
+      <!-- Organization info -->
+      <div class="text-center mb-12">
+        <h3 class="mb-2">{{ .Params.subtitle }}</h3>
+        <p class="text-lg text-text-light">
+          <i class="fa-solid fa-location-dot text-primary mr-2"></i>
+          {{ .Params.address }}
+        </p>
+      </div>
+
+      <!-- Contact channels -->
       <div class="row justify-center">
-        <div class="md:col-10 lg:col-8">
-          <div class="content">
-            {{ .Content }}
-          </div>
+        {{ range .Params.contact_channels }}
+        <div class="md:col-4 mb-8 text-center">
+          <a href="{{ .link }}" {{ if not (hasPrefix .link "mailto:") }}target="_blank" rel="noopener"{{ end }} class="group">
+            <i class="{{ .icon }} text-4xl text-primary mb-4 inline-block group-hover:scale-110 transition-transform"></i>
+            <p class="text-lg font-semibold">{{ .label }}</p>
+          </a>
         </div>
+        {{ end }}
       </div>
     </div>
   </section>

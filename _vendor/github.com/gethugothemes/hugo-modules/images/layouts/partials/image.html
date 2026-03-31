@@ -40,7 +40,7 @@
     loading="{{ .Loading }}"
     decoding="async"
     {{ if $fetchpriority }}fetchpriority="{{ $fetchpriority }}"{{ end }}
-    src="{{ $imagePath | absURL }}"
+    src="{{ strings.TrimPrefix "/" $imagePath | absURL }}"
     alt="{{ .Alt }}"
     class="{{ $class }} img"
     height="{{ $height }}"

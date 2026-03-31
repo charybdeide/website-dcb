@@ -1,0 +1,1 @@
+<a href="{{ if hasPrefix .Destination "http" }}{{ .Destination }}{{ else }}{{ strings.TrimPrefix "/" .Destination | relURL }}{{ end }}"{{ with .Title }} title="{{ . }}"{{ end }}{{ if hasPrefix .Destination "http" }} target="_blank" rel="noopener"{{ end }}>{{ .Text }}</a>

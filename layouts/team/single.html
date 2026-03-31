@@ -6,7 +6,7 @@
           {{ $image := .Params.image }}
           {{ if $image }}
             <div class="mx-auto w-48 h-48 overflow-hidden rounded-full mb-6">
-              <img src="{{ $image }}" alt="{{ .Title }}" class="w-full h-full object-cover" loading="lazy" />
+              <img src="{{ strings.TrimPrefix "/" $image | relURL }}" alt="{{ .Title }}" class="w-full h-full object-cover" loading="lazy" />
             </div>
           {{ end }}
           <h1 class="h3 mt-4">{{ .Title }}</h1>

@@ -1,5 +1,4 @@
 {{ define "main" }}
-  {{ partial "page-header" . }}
 
   {{ $ongoing := (where .RegularPages ".Params.ongoing" true).ByDate.Reverse }}
   {{ $past := (where .RegularPages ".Params.ongoing" "!=" true).ByDate.Reverse }}

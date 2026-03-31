@@ -1,5 +1,5 @@
 ######################## default configuration ####################
-baseURL = "https://diasporacivica.berlin/"
+baseURL = "https://charybdeide.github.io/website-dcb/"
 title = "Diaspora Civică Berlin"
 summaryLength = 20
 defaultContentLanguage = "ro"

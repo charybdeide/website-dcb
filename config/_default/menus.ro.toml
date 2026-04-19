@@ -1,51 +1,51 @@
 # Main menu
 [[main]]
   name = "Despre"
-  url = "/about/"
+  pageRef = "/about"
   weight = 1
 
 [[main]]
   name = "Proiecte"
-  url = "/projects/"
+  pageRef = "/projects"
   weight = 2
 
 [[main]]
   name = "Echipa"
-  url = "/team/"
+  pageRef = "/team"
   weight = 3
 
 [[main]]
   name = "Implică-te"
-  url = "/get-involved/"
+  pageRef = "/get-involved"
   weight = 4
 
 [[main]]
   name = "Noutăți"
-  url = "/news/"
+  pageRef = "/news"
   weight = 5
 
 [[main]]
   name = "Donează"
-  url = "/donate/"
+  pageRef = "/donate"
   weight = 6
 
 # Footer menu
 [[footer]]
   name = "Contact"
-  url = "/contact/"
+  pageRef = "/contact"
   weight = 1
 
 [[footer]]
   name = "Impressum"
-  url = "/impressum/"
+  pageRef = "/impressum"
   weight = 2
 
 [[footer]]
   name = "Politica de confidențialitate"
-  url = "/datenschutz/"
+  pageRef = "/datenschutz"
   weight = 3
 
 [[footer]]
   name = "Statut"
-  url = "/satzung/"
+  pageRef = "/satzung"
   weight = 4

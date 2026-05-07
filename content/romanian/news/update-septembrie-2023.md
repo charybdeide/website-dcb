@@ -23,7 +23,7 @@ Vrem să vă povestim cu ce ne-am mai ocupat noi in ultima lună:
 
 - Din luna august ne găsiți in Kreuzberg, la bUm [https://bum.berlin/](https://l.facebook.com/l.php?u=https%3A%2F%2Fbum.berlin%2F%3Ffbclid%3DIwAR1M0tpxmQ3IAlwQu-yPr63cmq65pViF1JKmYMTAb1Toap6GgiyZAIjroYs&h=AT2NjKrKMtcMiRzIq9v909ob7dCs7rJoTi3dYX0s5M3i3ld9QcSF6nkp1O6WBcdvFC10mX4Lak_l3BVDfnLXpWd3fU8qHvBciJV6OVKz4kTtkN29uSdJXD8paTaM&__tn__=-UK-R&c[0]=AT3fDohdZN6mvC3yvj-jnio3GzSyysK1EXiTpkna2RJdOj48vgQkOYOHNe-J4i3bxfgKfb7UQBtuIgjCz8wW-9RultdcxRCZ8n7rbzfF8RSJx792laPeOX1oYbSLxlu8_RaW0a7lJSijasIsu5ZRma2kMvppkkg1lQ1Rd_JKptee3lqEri0l-gpbVgqyukbJQ8jXSMq5fvP049v2toE) , un spațiu comunitar pentru organizații implicate social
 
-Sună bine? Hai in echipa DCB ![](https://static.xx.fbcdn.net/images/emoji.php/v9/t8a/3/16/1f642.png)
+Sună bine? Hai in echipa DCB 🙂
 
 Ce urmează în octombrie?
 

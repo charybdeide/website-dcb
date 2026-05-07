@@ -5,7 +5,7 @@ draft: false
 image: "/images/projects/5-idei-curajoase-de-la-lansarea-raportului-despre-votul-in-diaspora.png"
 ---
 
-[![](https://diasporacivica.berlin/wp-content/uploads/2021/02/Screenshot-from-2021-02-05-18.12.55_modified-300x175.png)](https://diasporacivica.berlin/wp-content/uploads/2021/02/Screenshot-from-2021-02-05-18.12.55_modified.png)
+[![](/images/projects/2021/02/Screenshot-from-2021-02-05-18.12.55_modified-300x175.png)](/images/projects/2021/02/Screenshot-from-2021-02-05-18.12.55_modified.png)
 
 Săptămâna trecută a avut loc lansarea **primului raport despre desfășurarea votul în străinătate**, conceput de către o [coaliție](https://diasporacivica.berlin/raportul-despre-votul-in-strainatate-a-fost-lansat-comunicat/) de 4 organizații din diaspora, cu ajutorul unor cetățeni implicați din toată Europa.
 Lansarea a generat o discuție productivă între oficialii prezenți la eveniment și reprezentanții societății civile. Câteva idei se remarcă în mod special:

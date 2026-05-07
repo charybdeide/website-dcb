@@ -2,17 +2,17 @@
 title: "Raportul despre votul in strainatate a fost lansat"
 description: "Lansarea raportului Votul în Străinătate - Alegerile Parlamentare 2020, realizat de DCB și alte organizații din diaspora."
 date: 2021-02-20
-image: "/images/wp-content/2021/02/Screenshot-from-2021-02-05-18.12.55_modified-1.png"
+image: "/images/news/2021/02/Screenshot-from-2021-02-05-18.12.55_modified-1.png"
 draft: false
 categories: ["Articole", "Event"]
 ---
 
-[![](/images/wp-content/2021/02/Screenshot-from-2021-02-05-18.12.55_modified-1-1024x599.png)](/images/wp-content/2021/02/Screenshot-from-2021-02-05-18.12.55_modified-1.png)
+[![](/images/news/2021/02/Screenshot-from-2021-02-05-18.12.55_modified-1-1024x599.png)](/images/news/2021/02/Screenshot-from-2021-02-05-18.12.55_modified-1.png)
 
 În data de 5 februarie a avut loc [lansarea ](https://bit.ly/3tsfcJc)[publică](https://bit.ly/3tsfcJc) a raportului “Votul în Străinătate – Alegerile Parlamentare 2020” conceput de către The Diaspora Initiative, [Diaspora Civică Berlin](https://diasporacivica.berlin/), [DOR – Romanian Diaspora](https://dorod.co.uk/) și [Rezist Z](https://www.rezistzurich.com/)[ü](https://www.rezistzurich.com/)[rich](https://www.rezistzurich.com/).
 
 Raportul, consolidat în urma comentariilor primite din partea institutiilor de resort și din partea societății civile din diaspora, a generat o discuție constructivă, dinamică și la obiect.
-Îl puteți citi în forma finală: [RAPORT-FINAL-Votul-in-strainatate](/images/wp-content/2021/02/RAPORT-FINAL-Votul-in-strainatate.pdf)
+Îl puteți citi în forma finală: [RAPORT-FINAL-Votul-in-strainatate](/images/news/2021/02/RAPORT-FINAL-Votul-in-strainatate.pdf)
 
 Pe 26 ianuarie am lansat raportul în prezența instituțiilor cu care am colaborat în toate etapele scrutinului iar pe 27 ianuarie, am discutat aceste aspecte cu reprezentanții diasporei în Parlament.
 

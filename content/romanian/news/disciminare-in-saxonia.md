@@ -2,7 +2,7 @@
 title: "Discriminare în Saxonia"
 description: "Poliția din Saxonia a cerut hotelurilor date despre cetățenii români. DCB condamnă gestul discriminatoriu."
 date: 2019-08-20
-image: "/images/wp-content/2020/04/Disciminare-in-Saxonia-e1587901105317.jpg"
+image: "/images/news/2020/04/Disciminare-in-Saxonia-e1587901105317.jpg"
 draft: false
 categories: ["Articole"]
 ---

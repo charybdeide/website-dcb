@@ -2,7 +2,7 @@
 title: "Tot ce trebuie să știi despre alegerile prezidențiale 2019 pentru diaspora"
 description: "Ghid practic pentru diaspora despre votul la alegerile prezidențiale 2019: corespondență, secții din străinătate și documente necesare."
 date: 2019-08-18
-image: "/images/wp-content/2019/08/DIASPORA-VOTEAZA-3.png"
+image: "/images/news/2019/08/DIASPORA-VOTEAZA-3.png"
 draft: false
 categories: ["Articole"]
 ---
@@ -33,7 +33,7 @@ Ghidul Declic de vot prin corespondență rezumă clar pașii de după înscrier
 
 **!!! Important:** Faptul că te înscrii ca alegător prin corespondență nu prezintă niciun risc. Dacă nu reușești să trimiți plicul cu votul sau dacă acesta nu ajunge la timp la Biroul Electoral vei primi un e-mail care să te înștiințeze că poți vota la secție. De asemenea, Autoritatea Electorală Permanentă nu poate din punct de vedere legal să utilizeze datele rezultate din procesul de înscriere în alte scopuri decât cel electoral la alegerile din 2019. Autoritatea Electorală Permanentă nu va înainta informațiile și datele personale altor agenții guvernamentale.
 
-[![](/images/wp-content/2019/08/ACTE-DE-IDENTITATE-ACCEPTATE-4-300x251.png)](/images/wp-content/2019/08/ACTE-DE-IDENTITATE-ACCEPTATE-4.png)[![](/images/wp-content/2019/08/ACTE-DE-IDENTITATE-ACCEPTATE-5-300x251.png)](/images/wp-content/2019/08/ACTE-DE-IDENTITATE-ACCEPTATE-5.png)
+[![](/images/news/2019/08/ACTE-DE-IDENTITATE-ACCEPTATE-4-300x251.png)](/images/news/2019/08/ACTE-DE-IDENTITATE-ACCEPTATE-4.png)[![](/images/news/2019/08/ACTE-DE-IDENTITATE-ACCEPTATE-5-300x251.png)](/images/news/2019/08/ACTE-DE-IDENTITATE-ACCEPTATE-5.png)
 
  
 

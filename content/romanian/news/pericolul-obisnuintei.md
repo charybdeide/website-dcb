@@ -2,7 +2,7 @@
 title: "Pericolul Obișnuinței"
 description: "Reflecție despre cum obișnuința ne împiedică să acceptăm idei noi și să acționăm la momentul potrivit, inclusiv în plan civic."
 date: 2019-12-07
-image: "/images/wp-content/2019/12/meYslQ.jpg"
+image: "/images/news/2019/12/meYslQ.jpg"
 draft: false
 categories: ["Articole"]
 ---

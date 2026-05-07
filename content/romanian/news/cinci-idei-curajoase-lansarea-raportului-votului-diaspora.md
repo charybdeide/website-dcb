@@ -2,7 +2,7 @@
 title: "5 idei curajoase de la lansarea raportului despre votul în diaspora"
 description: "Concluzii de la lansarea primului raport despre votul în străinătate: cod electoral unificat, pregătirea comisiilor și vot electronic."
 date: 2021-02-20
-image: "/images/wp-content/2021/02/Screenshot-from-2021-02-05-18.12.55_modified.png"
+image: "/images/news/2021/02/Screenshot-from-2021-02-05-18.12.55_modified.png"
 draft: false
 categories: ["Articole", "Event"]
 ---

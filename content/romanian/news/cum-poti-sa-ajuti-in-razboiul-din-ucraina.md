@@ -2,7 +2,7 @@
 title: "Cum poți să ajuți în războiul din Ucraina"
 description: "Liste de organizații și inițiative prin care poți ajuta ucrainenii afectați de război, în România, Moldova și Ucraina."
 date: 2022-02-27
-image: "/images/wp-content/2022/02/Bild1.jpg"
+image: "/images/news/2022/02/Bild1.jpg"
 draft: false
 categories: ["Articole"]
 ---

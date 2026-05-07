@@ -2,7 +2,7 @@
 title: "Cronologia sezonului electoral 2020"
 description: "Cronologia alegerilor locale și parlamentare din 2020 și opțiunile de vot disponibile pentru românii din diaspora."
 date: 2020-09-14
-image: "/images/wp-content/2020/09/romania_vote_elections_shutterstock.jpg"
+image: "/images/news/2020/09/romania_vote_elections_shutterstock.jpg"
 draft: false
 categories: ["Articole"]
 ---

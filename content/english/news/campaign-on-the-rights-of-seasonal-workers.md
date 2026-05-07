@@ -1,7 +1,7 @@
 ---
 title: "Campaign on the rights of seasonal workers"
 date: 2020-05-02
-image: "/images/wp-content/2020/09/95709340_2651417198432009_2193119608255283200_o.jpg"
+image: "/images/news/2020/09/95709340_2651417198432009_2193119608255283200_o.jpg"
 draft: false
 categories: ["Articles"]
 ---

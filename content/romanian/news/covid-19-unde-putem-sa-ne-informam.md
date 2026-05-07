@@ -2,7 +2,7 @@
 title: "Covid-19 - unde putem să ne informăm?"
 description: "Surse oficiale de informare și centre de consiliere gratuită în limba română despre coronavirus, pentru cetățenii români din Germania."
 date: 2020-04-13
-image: "/images/wp-content/2020/04/92243538_2627839830789746_6950861044759658496_n.png"
+image: "/images/news/2020/04/92243538_2627839830789746_6950861044759658496_n.png"
 draft: false
 categories: ["Articole"]
 ---

@@ -2,7 +2,7 @@
 title: "Inegalitățile dintre femei și bărbați în șase grafice"
 description: "Infografice despre inegalitățile de gen în România, Germania și UE, create de DCB de Ziua Femeii."
 date: 2019-03-10
-image: "/images/wp-content/2019/03/8-martie-2019-02.jpg"
+image: "/images/news/2019/03/8-martie-2019-02.jpg"
 draft: false
 categories: ["Articole"]
 ---
@@ -13,7 +13,7 @@ De ce este reprezentarea fidelă a societății în funcțiile de conducere, mai
 
 A susține emanciparea femeii fără a contesta dominația masculină în pozițiile decizionale cele mai înalte subminează credibilitatea poziției, iar orice partid politic trebuie să se dezvolte în această direcție.
 
-[![infografic reprezentarea femeilor in parlament](/images/wp-content/2019/03/8-martie-2019-03-300x300.jpg)](/images/wp-content/2019/03/8-martie-2019-03.jpg)[![infografic femei pe pozitii ministeriale](/images/wp-content/2019/03/8-martie-2019-04-300x300.jpg)](/images/wp-content/2019/03/8-martie-2019-04.jpg)[![infografic femei in marile companii](/images/wp-content/2019/03/8-martie-2019-05-300x300.jpg)](/images/wp-content/2019/03/8-martie-2019-05.jpg)
+[![infografic reprezentarea femeilor in parlament](/images/news/2019/03/8-martie-2019-03-300x300.jpg)](/images/news/2019/03/8-martie-2019-03.jpg)[![infografic femei pe pozitii ministeriale](/images/news/2019/03/8-martie-2019-04-300x300.jpg)](/images/news/2019/03/8-martie-2019-04.jpg)[![infografic femei in marile companii](/images/news/2019/03/8-martie-2019-05-300x300.jpg)](/images/news/2019/03/8-martie-2019-05.jpg)
 
  
 
@@ -27,7 +27,7 @@ Un alt aspect “de pe timpuri” este nivelul relativ echilibrat de școlarizar
 
 Dar cifrele scăzute în comparație cu alte țări nu trebuie să ne înșele în a crede într-un progresism al societății românești sau în reforme substanțiale ațintite direct în a susține egalitatea de gen, ci doar într-un sistem inerent cu o aparență îmbucurătoare dar o substanță amăgitoare.
 
-[![infografic diferentele de venit intre barbati si femei](/images/wp-content/2019/03/8-martie-2019-01-300x300.jpg)](/images/wp-content/2019/03/8-martie-2019-01.jpg)[![infografic diferentele de angajare dintre barbati si femei](/images/wp-content/2019/03/8-martie-2019-02-300x300.jpg)](/images/wp-content/2019/03/8-martie-2019-02.jpg)
+[![infografic diferentele de venit intre barbati si femei](/images/news/2019/03/8-martie-2019-01-300x300.jpg)](/images/news/2019/03/8-martie-2019-01.jpg)[![infografic diferentele de angajare dintre barbati si femei](/images/news/2019/03/8-martie-2019-02-300x300.jpg)](/images/news/2019/03/8-martie-2019-02.jpg)
 
  
 
@@ -35,4 +35,4 @@ O reprezentare bună a societății patriarhale în care trăim. Dacă femeie su
 
 Ce e și mai evident este cât de adânc ancorată este ideologia patriarhală, dacă și femei își înțeleg rolul în societate definit de sex.
 
-[![infografic stereotipuri de gen](/images/wp-content/2019/03/8-martie-2019-06-300x300.jpg)](/images/wp-content/2019/03/8-martie-2019-06.jpg)
+[![infografic stereotipuri de gen](/images/news/2019/03/8-martie-2019-06-300x300.jpg)](/images/news/2019/03/8-martie-2019-06.jpg)

@@ -2,7 +2,7 @@
 title: "Romanian civil society abroad - perspectives from Berlin"
 description: "Articol despre evoluția societății civile românești din Berlin, de la protestele din 2012 până la mișcarea #Rezist din 2017."
 date: 2015-11-11
-image: "/images/wp-content/2015/11/Article-Romanian-protests-Diaspora-Civica-Berlint.jpg"
+image: "/images/news/2015/11/Article-Romanian-protests-Diaspora-Civica-Berlint.jpg"
 draft: false
 categories: ["Articole"]
 ---

@@ -49,7 +49,7 @@ categories: ["Event"]
 
 [Astra Kulturhaus](https://maps.app.goo.gl/ii2fJ7xsDKriXXQQ8) organizează public viewings pentru Campionatul European...
 
-![Poster of the event](/images/wp-content/2024/06/Public-Viewing-Videowand.jpg)
+![Poster of the event](/images/news/2024/06/Public-Viewing-Videowand.jpg)
 ```
 
 ### 4. The labels at the top — what each one means
@@ -61,7 +61,7 @@ categories: ["Event"]
 | `date` | The publication date, in the format `YYYY-MM-DD`. Used to sort articles (newest first). |
 | `draft` | Set to `false` to publish the article. Set to `true` if you're not ready yet — drafts won't appear on the live site. |
 | `categories` | One or more tags in square brackets, e.g. `["Event"]` or `["Event", "Volunteering"]`. |
-| `image` | (Optional) Path to a cover picture, e.g. `"/images/wp-content/2020/09/photo.jpg"`. Used as the article banner, the listing thumbnail, and the social-media preview. See section 7. |
+| `image` | (Optional) Path to a cover picture, e.g. `"/images/news/2020/09/photo.jpg"`. Used as the article banner, the listing thumbnail, and the social-media preview. See section 7. |
 
 ### 5. About the `description` field
 
@@ -114,7 +114,7 @@ When the site is rebuilt, the new category page and a new entry in the sidebar w
 You can add an `image:` line to the front matter, pointing to a picture stored under `static/images/`:
 
 ```
-image: "/images/wp-content/2020/09/seasonal-workers.jpg"
+image: "/images/news/2020/09/seasonal-workers.jpg"
 ```
 
 This is the article's "main" picture, and it is reused in **four** places — so picking a strong one matters more than any image you add inside the body:
@@ -149,11 +149,11 @@ You can search online more about the markdown syntax, or start [here](https://ma
 
 ### 9. Adding images
 
-Place image files inside the `static/images/` folder (you can create subfolders by year/month for tidiness, e.g. `static/images/wp-content/2024/06/`). Then reference them in the article with a path that starts with `/images/...`.
+Place image files for news articles inside `static/images/news/`, organised by year and month (e.g. `static/images/news/2024/06/`). Then reference them in the article with a path that starts with `/images/news/...`.
 
 Example:
 ```markdown
-![Volunteers at the event](/images/wp-content/2024/06/public-viewing.jpg)
+![Volunteers at the event](/images/news/2024/06/public-viewing.jpg)
 ```
 
 Try to keep images reasonably sized (under ~500 KB each) so pages load quickly.

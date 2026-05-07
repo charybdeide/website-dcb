@@ -2,7 +2,7 @@
 title: "Povestea Diasporei Civice Berlin la STARTx"
 description: "Alexandra Ioan a prezentat povestea Diaspora Civică Berlin la conferința STARTx din Köln, în octombrie 2018."
 date: 2019-02-08
-image: "/images/wp-content/2019/02/Diaspora-Civica-Berlin_Alexandra.jpg"
+image: "/images/news/2019/02/Diaspora-Civica-Berlin_Alexandra.jpg"
 draft: false
 categories: ["Articole"]
 ---

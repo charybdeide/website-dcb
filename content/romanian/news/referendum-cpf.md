@@ -2,7 +2,7 @@
 title: "De Ce #Boicotăm Referendumul CpF"
 description: "Poziția DCB față de referendumul Coaliției pentru Familie din 2018: argumente pentru boicot și solidaritate cu comunitatea LGBT+."
 date: 2018-09-19
-image: "/images/wp-content/2018/09/Untitled-design.png"
+image: "/images/news/2018/09/Untitled-design.png"
 draft: false
 categories: ["Articole"]
 ---

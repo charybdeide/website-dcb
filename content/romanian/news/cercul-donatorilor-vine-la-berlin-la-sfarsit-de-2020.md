@@ -2,7 +2,7 @@
 title: "Cercul Donatorilor vine la Berlin la sfârșitul lui 2020"
 description: "DCB organizează Cercul Donatorilor Berlin, un eveniment de crowdfunding live pentru organizații din România, în parteneriat cu The Funding Network."
 date: 2020-03-24
-image: "/images/wp-content/2020/03/88185998_2590894111150985_99237804944392192_o-2.jpg"
+image: "/images/news/2020/03/88185998_2590894111150985_99237804944392192_o-2.jpg"
 draft: false
 categories: ["Articole"]
 ---

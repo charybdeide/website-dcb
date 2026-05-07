@@ -2,7 +2,7 @@
 title: "Public Viewing România - Belgia"
 description: "Invitație la vizionarea meciului România - Belgia de la Euro 2024, organizată de DCB la Astra Kulturhaus din Berlin."
 date: 2024-06-13
-image: "/images/wp-content/2024/06/Public-Viewing-Videowand.jpg"
+image: "/images/news/2024/06/Public-Viewing-Videowand.jpg"
 draft: false
 categories: ["Event"]
 ---

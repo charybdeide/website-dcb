@@ -2,7 +2,7 @@
 title: "Planurile DCB pentru 2021"
 description: "Proiectele Diaspora Civică Berlin pentru 2021: ghidul comunității românești, podcastul Diaspora Conectată și coaliția Cod Electoral."
 date: 2021-02-20
-image: "/images/wp-content/2021/02/Podcast-Diaspora-Conectata..jpg"
+image: "/images/news/2021/02/Podcast-Diaspora-Conectata..jpg"
 draft: false
 categories: ["Articole", "Event"]
 ---

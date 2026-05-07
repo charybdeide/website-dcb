@@ -2,7 +2,7 @@
 title: "Protestul Diasporei din 10 August - Un Moment Bun de Reflecție"
 description: "Analiză a protestului diasporei din 10 august 2018: organizare, cerințe, rolul diasporei și nevoia de implicare civică pe termen lung."
 date: 2018-08-10
-image: "/images/wp-content/2018/08/Untitled-design-12.png"
+image: "/images/news/2018/08/Untitled-design-12.png"
 draft: false
 categories: ["Articole"]
 ---

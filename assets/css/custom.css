@@ -3,7 +3,6 @@
 /* Override heading styles - Josefin Sans uppercase per brand manual */
 h1, h2, h3, h4, h5, h6 {
   text-transform: uppercase;
-  font-family: var(--font-primary);
 }
 
 /* Brand accent: period at end of headings can be red */

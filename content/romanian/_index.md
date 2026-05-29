@@ -5,12 +5,27 @@ description: "Contribuim la o societate în care cetățenii se organizează, î
 image: "/images/fallback.png"
 
 banner:
-  title: "Diaspora Civică Berlin."
+  title: "Diaspora Civică Berlin"
   content: "Contribuim la o societate în care cetățenii se organizează, își cunosc și exercită drepturile și responsabilitățile."
   button:
     enable: true
     label: "Implică-te"
     link: "/get-involved/"
+
+featured_project:
+  title: "Harta Diasporei"
+  image: "/images/harta-diasporei.png"
+  description: "Harta Diasporei este un proiect ce își propune să adune locațiile și serviciile românești, vorbitoare de limba română sau de interes pentru românii din diaspora."
+  button_label: "Vezi harta"
+  button_link: "https://www.hartadiasporei.org"
+
+projects_section:
+  title: "Proiectele noastre."
+  content: "Derulăm programe de educație civică, evenimente comunitare și campanii de advocacy pentru consolidarea participării democratice în diaspora românească."
+  button:
+    enable: true
+    label: "Vezi toate proiectele"
+    link: "/projects/"
 
 intro:
   - title: "Cine suntem."
@@ -20,18 +35,8 @@ intro:
       enable: true
       label: "Află mai multe"
       link: "/about/"
-
-projects_section:
-  title: "Proiectele noastre."
-  content: "Derulăm programe de educație civică, evenimente comunitare și campanii de advocacy pentru consolidarea participării democratice în diaspora românească."
-  button:
-    enable: true
-    label: "Vezi toate proiectele"
-    link: "/projects/"
-  featured_project:
-    title: "Harta Diasporei"
-    image: "/images/harta-diasporei.png"
-    description: "Harta Diasporei este un proiect ce își propune să adune locațiile și serviciile românești, vorbitoare de limba română sau de interes pentru românii din diaspora."
-    button_label: "Vezi harta"
-    button_link: "https://www.hartadiasporei.org"
+    
+newsletter: 
+  title: "Abonează-te la newsletter"
+  content: "Rămâi la curent cu cele mai recente noutăți de la noi direct in mailboxul tau. Adunăm informații folositoare pentru cine trăiește în Germania, în limba română. Poți citi toate edițiile [aici](https://diasporacivicaberlin.substack.com/)."
 ---

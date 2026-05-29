@@ -22,7 +22,7 @@
                 {{ .Summary | plainify | truncate 100 }}
               </p>
               {{ if .Params.cta_link }}
-              <a class="btn btn-primary btn-sm" href="{{ .Params.cta_link | relLangURL }}">
+              <a class="btn btn-primary btn-sm" href="{{ strings.TrimPrefix `/` .Params.cta_link | relLangURL }}">
                 {{ .Params.cta_label | default (T "read_more") | default "Read More" }}
               </a>
               {{ else }}

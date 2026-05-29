@@ -13,12 +13,12 @@
               <h2 class="mb-2">
                 {{ .Title | markdownify }}
               </h2>
-              <p class="mb-6">
+              <p class="mb-6 text-lg">
                 {{ .Params.description | markdownify }}
               </p>
               {{ with .Params.button }}
                 {{ if .enable }}
-                  <a class="btn btn-primary" href="{{ .link | relLangURL }}">
+                  <a class="btn btn-primary" href="{{ strings.TrimPrefix `/` .link | relLangURL }}">
                     {{ .label }}
                   </a>
                 {{ end }}

@@ -8,12 +8,12 @@
         <h1 class="mb-4 text-h3 lg:text-h1">
           {{ .title | markdownify }}
         </h1>
-        <p class="mb-8">
+        <p class="mb-8 text-xl">
           {{ .content | markdownify }}
         </p>
         {{ with .button }}
         {{ if .enable }}
-        <a class="btn btn-primary" href="{{ .link | relLangURL }}" {{ if strings.HasPrefix .link `http` }}
+        <a class="btn btn-primary" href="{{ strings.TrimPrefix `/` .link | relLangURL }}" {{ if strings.HasPrefix .link `http` }}
           target="_blank" rel="noopener" {{ end }}>
           {{ .label }}
         </a>
@@ -26,45 +26,26 @@
 {{ end }}
 <!-- /Banner -->
 
-<!-- Intro -->
-{{ range .Params.intro }}
-<section class="pb-4 pt-0">
+<!-- Featured Project -->
+{{ with .Params.featured_project }}
+<section>
   <div class="container">
-    <div class="bg-light dark:bg-darkmode-light rounded-xl px-4 py-16 xl:p-20">
-      <div class="row items-center justify-between">
-        <div class="md:col-5 lg:col-4 mb-10 md:mb-0">
-          {{ partial "image" (dict "Src" .image "Alt" "feature image" "Class" "w-full rounded-lg") }}
-        </div>
-        <div class="md:col-7 md:col-6">
-          <h2 class="mb-4">
-            {{ .title | markdownify }}
-          </h2>
-          <p class="mb-8 text-lg">
-            {{ .content | markdownify }}
-          </p>
-          <ul>
-            {{ range .bulletpoints }}
-            <li class="relative mb-4 pl-6">
-              <i class="fa fa-check absolute left-0 top-1.5"></i>
-              {{ . | markdownify }}
-            </li>
-            {{ end }}
-          </ul>
-          {{ with .button }}
-          {{ if .enable }}
-          <a class="btn btn-primary mt-6" href="{{ .link | relLangURL }}">
-            {{ .label }}
-            <i class="fa fa-arrow-right pl-2"></i>
-          </a>
-          {{ end }}
-          {{ end }}
-        </div>
+    <div class="border border-black dark:border-white rounded-lg overflow-hidden relative" style="height: 32rem;">
+      <img src="{{ strings.TrimPrefix "/" .image | relURL }}" alt="{{ .title }}" class="w-full h-full object-cover" loading="lazy" />
+      <!-- <img src="{{ "images/circle-flag.svg" | relURL }}" alt="Romanian flag" class="absolute top-6 right-6 w-12 h-12 z-10" /> -->
+      <div class="absolute inset-0 bg-white/70 flex flex-col items-center justify-center text-center p-8">
+        {{ with .title }}<h3 class="text-black mb-4">{{ . }}</h3>{{ end }}
+        <p class="text-black text-lg md:text-xl mb-6 max-w-2xl">{{ .description }}</p>
+        <a class="btn btn-primary" href="{{ .button_link }}" target="_blank" rel="noopener">
+          {{ .button_label }}
+          <i class="fa fa-arrow-right pl-2"></i>
+        </a>
       </div>
     </div>
   </div>
 </section>
 {{ end }}
-<!-- /Intro -->
+<!-- /Featured Project -->
 
 <!-- Projects Section with Carousel -->
 {{ with .Params.projects_section }}
@@ -80,24 +61,6 @@
         </p>
       </div>
     </div>
-    {{ with .featured_project }}
-    <div class="row mb-12">
-      <div class="col-12">
-        <div class="border border-black dark:border-white rounded-lg overflow-hidden relative" style="height: 22rem;">
-          <img src="{{ strings.TrimPrefix "/" .image | relURL }}" alt="{{ .title }}" class="w-full h-full object-cover" loading="lazy" />
-          <img src="{{ "images/circle-flag.svg" | relURL }}" alt="Romanian flag" class="absolute top-6 right-6 w-12 h-12 z-10" />
-          <div class="absolute inset-0 bg-white/70 flex flex-col items-center justify-center text-center p-8">
-            {{ with .title }}<h3 class="text-black mb-4">{{ . }}</h3>{{ end }}
-            <p class="text-black text-lg md:text-xl mb-6 max-w-2xl">{{ .description }}</p>
-            <a class="btn btn-primary" href="{{ .button_link }}" target="_blank" rel="noopener">
-              {{ .button_label }}
-              <i class="fa fa-arrow-right pl-2"></i>
-            </a>
-          </div>
-        </div>
-      </div>
-    </div>
-    {{ end }}
 
     <div class="row mb-8">
       <div class="col-12">
@@ -128,7 +91,7 @@
     {{ with .button }}
     {{ if .enable }}
     <div class="mt-12 text-center">
-      <a class="btn btn-primary" href="{{ .link | relLangURL }}">
+      <a class="btn btn-primary" href="{{ strings.TrimPrefix `/` .link | relLangURL }}">
         {{ .label }}
         <i class="fa fa-arrow-right pl-2"></i>
       </a>
@@ -158,9 +121,72 @@
 {{ end }}
 <!-- /Projects Section -->
 
+<!-- Newsletter -->
+{{ with .Params.newsletter }}
+<section class="mb-28">
+  <div class="container">
+    <div class="bg-body dark:bg-darkmode-body rounded-xl px-4 py-16 xl:p-20 text-center border border-black dark:border-darkmode-border">
+      <h2 class="mb-2">
+        {{ .title | markdownify }}
+      </h2>
+      <div class="content row justify-center">
+        <div class="lg:col-7 md:col-9">
+          <p class="mb-2 text-lg">
+            {{ .content | markdownify }}
+          </p>
+        </div>
+      </div>
+      <iframe class="mx-auto" src="https://diasporacivicaberlin.substack.com/embed?transparent=1" width="580" height="150" style="border: 0; background: transparent" frameborder="0" scrolling="no"></iframe>
+    </div>
+  </div>
+</section>
+{{ end }}
+<!-- /Newsletter -->
+
 <!-- Call to action -->
 {{ partial "call-to-action" . }}
 <!-- /Call to action -->
+
+
+<!-- Intro -->
+{{ range .Params.intro }}
+<section class="pb-4 pt-0">
+  <div class="container">
+    <div class="bg-light dark:bg-darkmode-light rounded-xl px-4 py-16 xl:p-20">
+      <div class="row items-center justify-between">
+        <div class="md:col-5 lg:col-4 mb-10 md:mb-0">
+          {{ partial "image" (dict "Src" .image "Alt" "feature image" "Class" "w-full rounded-lg") }}
+        </div>
+        <div class="md:col-7 md:col-6">
+          <h2 class="mb-4">
+            {{ .title | markdownify }}
+          </h2>
+          <p class="mb-8 text-lg">
+            {{ .content | markdownify }}
+          </p>
+          <ul>
+            {{ range .bulletpoints }}
+            <li class="relative mb-4 pl-6">
+              <i class="fa fa-check absolute left-0 top-1.5"></i>
+              {{ . | markdownify }}
+            </li>
+            {{ end }}
+          </ul>
+          {{ with .button }}
+          {{ if .enable }}
+          <a class="btn btn-primary mt-6" href="{{ strings.TrimPrefix `/` .link | relLangURL }}">
+            {{ .label }}
+            <i class="fa fa-arrow-right pl-2"></i>
+          </a>
+          {{ end }}
+          {{ end }}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}
+<!-- /Intro -->
 
 <!-- Friends / Partners -->
 {{ with site.GetPage "sections/partners" }}

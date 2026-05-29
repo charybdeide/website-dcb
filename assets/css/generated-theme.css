@@ -25,8 +25,8 @@
   --color-darkmode-text-light: #B4AFB6;
 
   /* === Font Families === */
-  --font-primary: "Josefin Sans", sans-serif;
-  --font-secondary: Roboto, sans-serif;
+  --font-primary: Roboto, sans-serif;
+  --font-secondary: "Josefin Sans", sans-serif;
 
   /* === Font Sizes === */
   --text-base: 16px;

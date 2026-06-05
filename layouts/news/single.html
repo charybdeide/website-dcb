@@ -7,7 +7,7 @@
           {{ $image:= .Params.image }}
           {{ if $image }}
             <div class="mb-10">
-              {{ partial "image" (dict "Src" $image "Context" .Page "Alt" .Title "Class" "w-full rounded") }}
+              {{ partial "image" (dict "Src" $image "Context" .Page "Alt" .Title "Class" "w-full rounded-image") }}
             </div>
           {{ end }}
           <h1 class="h2 mb-4">
@@ -53,7 +53,7 @@
                   {{ range $i,$p:= $tags }}
                     <li class="inline-block">
                       <a
-                        class="bg-light hover:bg-primary dark:bg-darkmode-light dark:hover:bg-darkmode-primary dark:hover:text-text-dark m-1 block rounded px-3 py-1 hover:text-white"
+                        class="bg-light hover:bg-primary dark:bg-darkmode-light dark:hover:bg-darkmode-primary dark:hover:text-text-dark m-1 block rounded-tag px-3 py-1 hover:text-white"
                         href="{{ `tags/` | relLangURL }}{{ . | urlize | lower }}/">
                         {{ . | humanize }}
                       </a>

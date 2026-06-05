@@ -19,7 +19,7 @@
       <div class="row" id="ongoing-grid" style="display:none;">
         {{ range $ongoing }}
           <div class="md:col-6 lg:col-3 mb-14">
-            <div class="border border-black dark:border-white rounded-lg p-4 h-full">
+            <div class="border border-black dark:border-white rounded-card p-4 h-full">
               {{ partial "components/project-card" . }}
             </div>
           </div>
@@ -33,7 +33,7 @@
       <div class="row" id="all-grid">
         {{ range $paginator.Pages }}
           <div class="md:col-6 lg:col-3 mb-14 project-item" data-category="{{ if .Params.ongoing }}current{{ else }}past{{ end }}">
-            <div class="border border-black dark:border-white rounded-lg p-4 h-full">
+            <div class="border border-black dark:border-white rounded-card p-4 h-full">
               {{ partial "components/project-card" . }}
             </div>
           </div>

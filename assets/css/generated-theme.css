@@ -43,4 +43,11 @@
   --text-h2-sm: 2.239488rem;
   --text-h1: 2.9859839999999997rem;
   --text-h1-sm: 2.6873856rem;
+
+  /* === Border Radius (semantic) === */
+  --radius-button:  1.5rem;   /* .btn and friends */
+  --radius-card:    1.5rem;   /* outer card borders: project, news, featured-project, team */
+  --radius-section: 1.5rem;  /* large background panels: CTA, intro, newsletter, donate, about */
+  --radius-image:   0.5rem;   /* image wrappers inside cards and articles */
+  --radius-tag:     9999px;   /* tag/category pills */
 }

@@ -5,7 +5,7 @@
       <div class="row">
         {{ range .Params.methods }}
         <div class="md:col-4 mb-8">
-          <div class="bg-light dark:bg-darkmode-light rounded-xl p-8 h-full">
+          <div class="bg-light dark:bg-darkmode-light rounded-section p-8 h-full">
             <h4 class="mb-4">{{ .title | markdownify }}</h4>
             <div class="content">
               {{ .content | markdownify }}

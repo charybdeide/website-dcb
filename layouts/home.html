@@ -1,8 +1,31 @@
 {{ define "main" }}
 <!-- Banner -->
 {{ with .Params.banner }}
-<section class="section pt-14">
+<section class="section" style="padding-top: 0;">
   <div class="container">
+    {{ if .image }}
+    <div class="rounded-card overflow-hidden relative" style="border-top-left-radius: 0; border-top-right-radius: 0;">
+      <img src="{{ strings.TrimPrefix `/` .image | relURL }}" alt="" class="w-full h-[28rem] md:h-[34rem] object-cover" loading="eager" />
+      <div class="absolute inset-0 bg-white/70 dark:bg-black/60 flex items-center justify-center px-4" style="padding-top: 5rem;">
+        <div class="text-center lg:max-w-[60%] md:max-w-[80%]">
+          <h1 class="mb-4 text-h3 lg:text-h1">
+            {{ .title | markdownify }}
+          </h1>
+          <p class="mb-8 text-xl">
+            {{ .content | markdownify }}
+          </p>
+          {{ with .button }}
+          {{ if .enable }}
+          <a class="btn btn-primary" href="{{ strings.TrimPrefix `/` .link | relLangURL }}" {{ if strings.HasPrefix .link `http` }}
+            target="_blank" rel="noopener" {{ end }}>
+            {{ .label }}
+          </a>
+          {{ end }}
+          {{ end }}
+        </div>
+      </div>
+    </div>
+    {{ else }}
     <div class="row justify-center">
       <div class="lg:col-7 md:col-9 mb-8 text-center">
         <h1 class="mb-4 text-h3 lg:text-h1">
@@ -21,6 +44,7 @@
         {{ end }}
       </div>
     </div>
+    {{ end }}
   </div>
 </section>
 {{ end }}
@@ -30,7 +54,7 @@
 {{ with .Params.featured_project }}
 <section>
   <div class="container">
-    <div class="border border-black dark:border-white rounded-lg overflow-hidden relative" style="height: 32rem;">
+    <div class="border border-black dark:border-white rounded-card overflow-hidden relative" style="height: 32rem;">
       <img src="{{ strings.TrimPrefix "/" .image | relURL }}" alt="{{ .title }}" class="w-full h-full object-cover" loading="lazy" />
       <!-- <img src="{{ "images/circle-flag.svg" | relURL }}" alt="Romanian flag" class="absolute top-6 right-6 w-12 h-12 z-10" /> -->
       <div class="absolute inset-0 bg-white/70 flex flex-col items-center justify-center text-center p-8">
@@ -78,7 +102,7 @@
             {{ $projects := where site.RegularPages "Section" "projects" }}
             {{ range first 7 ($projects.ByDate.Reverse) }}
             <div class="swiper-slide h-auto">
-              <div class="border border-black dark:border-white rounded-lg p-4 h-full">
+              <div class="border border-black dark:border-white rounded-card p-4 h-full">
                 {{ partial "components/project-card" . }}
               </div>
             </div>
@@ -125,7 +149,7 @@
 {{ with .Params.newsletter }}
 <section class="mb-28">
   <div class="container">
-    <div class="bg-body dark:bg-darkmode-body rounded-xl px-4 py-16 xl:p-20 text-center border border-black dark:border-darkmode-border">
+    <div class="bg-body dark:bg-darkmode-body rounded-section px-4 py-16 xl:p-20 text-center border border-black dark:border-darkmode-border">
       <h2 class="mb-2">
         {{ .title | markdownify }}
       </h2>
@@ -152,10 +176,10 @@
 {{ range .Params.intro }}
 <section class="pb-4 pt-0">
   <div class="container">
-    <div class="bg-light dark:bg-darkmode-light rounded-xl px-4 py-16 xl:p-20">
+    <div class="bg-light dark:bg-darkmode-light rounded-section px-4 py-16 xl:p-20">
       <div class="row items-center justify-between">
         <div class="md:col-5 lg:col-4 mb-10 md:mb-0">
-          {{ partial "image" (dict "Src" .image "Alt" "feature image" "Class" "w-full rounded-lg") }}
+          {{ partial "image" (dict "Src" .image "Alt" "feature image" "Class" "w-full rounded-image") }}
         </div>
         <div class="md:col-7 md:col-6">
           <h2 class="mb-4">

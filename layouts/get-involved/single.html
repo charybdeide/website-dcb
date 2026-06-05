@@ -6,7 +6,7 @@
     <div class="container">
       <div class="row items-center justify-between">
         <div class="mb:md-0 md:col-5 mb-6">
-          {{ partial "image" (dict "Src" $.Params.intro_image "Alt" $.Title "DisplayXL" "520x" "DisplayLG" "425x" "DisplayMD" "360x" "Class" "rounded-xl") }}
+          {{ partial "image" (dict "Src" $.Params.intro_image "Alt" $.Title "DisplayXL" "520x" "DisplayLG" "425x" "DisplayMD" "360x" "Class" "rounded-image") }}
         </div>
         <div class="md:col-7 lg:col-6">
           <h2 class="mb-4">
@@ -33,7 +33,7 @@
   {{ with .Params.section2_title }}
   <section class="section-sm pt-4">
     <div class="container">
-      <div class="bg-light dark:bg-darkmode-light rounded-xl px-4 py-16 xl:p-20">
+      <div class="bg-light dark:bg-darkmode-light rounded-section px-4 py-16 xl:p-20">
         <div class="row justify-center">
           <div class="lg:col-10">
             <h2 class="mb-4">

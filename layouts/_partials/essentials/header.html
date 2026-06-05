@@ -3,7 +3,7 @@
   class="header {{ if site.Params.navbar_fixed }}sticky top-0{{ end }} z-30">
   <nav class="navbar container">
     <!-- logo -->
-    <div class="order-0">
+    <div class="order-0 ml-4 lg:ml-8">
       <!-- navbar brand/logo -->
       <a class="navbar-brand block" href="{{ site.Home.RelPermalink }}">
         {{/* https://github.com/gethugothemes/hugo-modules/tree/master/images */}}
@@ -133,7 +133,7 @@
         {{ end }}
       {{ end }}
 
-      {{ partial "components/language-switcher" (dict "Context" . "Class" "mr-5 pl-2 py-1 dark:bg-darkmode-light rounded") }}
+      {{ partial "components/language-switcher" (dict "Context" . "Class" "mr-5 pl-2 py-1 dark:bg-darkmode-light rounded-[10px]") }}
       {{ partial "components/theme-switcher" (dict "Class" "mr-5") }}
 
 

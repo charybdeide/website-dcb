@@ -5,7 +5,7 @@
       <div class="row">
         {{ range sort .RegularPages "Params.weight" "asc" }}
           <div class="md:col-6 lg:col-3 mb-14">
-            <div class="bg-light dark:bg-darkmode-light rounded p-8 text-center h-full">
+            <div class="bg-light dark:bg-darkmode-light rounded-card p-8 text-center h-full">
               {{ $image := .Params.image }}
               {{ if $image }}
                 <div class="mx-auto mb-6 w-28 h-28 overflow-hidden rounded-full">

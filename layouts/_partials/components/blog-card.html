@@ -1,6 +1,6 @@
 <div class="bg-body dark:bg-darkmode-body h-full flex flex-col">
   {{ $image:= .Params.image | default "/images/fallback.png" }}
-  <div class="mb-6 h-64 overflow-hidden rounded">
+  <div class="mb-6 h-64 overflow-hidden rounded-image">
     <img src="{{ strings.TrimPrefix "/" $image | relURL }}" alt="{{ .Title }}" class="h-full w-full object-cover" loading="lazy" />
   </div>
   <h6 class="mb-3">

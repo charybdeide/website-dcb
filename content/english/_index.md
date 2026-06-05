@@ -6,8 +6,8 @@ image: "/images/fallback.png"
 
 banner:
   title: "Diaspora Civică Berlin"
-  content: "Diaspora Civică Berlin (DCB) is an NGO born out of the massive street protests that took place in Romania and in Germany in February 2017. We advocate for an increased civic and political engagement of the Romanian community in Berlin and in Germany."
-  image: "/images/banner.jpg"
+  content: "We contribute to a society in which citizens organize themselves, know and exercise their rights and responsibilities."
+  image: "/images/sebastian-herrmann-k08MDpZm5zY-unsplash.jpg"
   button:
     enable: true
     label: "Get Involved"

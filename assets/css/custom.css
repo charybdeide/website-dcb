@@ -13,3 +13,8 @@ h1, h2, h3, h4, h5, h6 {
 .navbar-brand .img {
   height: 50px
 }
+
+/* Vendor class overrides — point bare `rounded` users at the semantic tokens */
+.btn               { border-radius: var(--radius-button); }
+.input-control     { border-radius: var(--radius-image); }
+.social-icons li a { border-radius: var(--radius-image); }

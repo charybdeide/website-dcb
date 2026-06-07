@@ -8,8 +8,8 @@
             <div class="bg-light dark:bg-darkmode-light rounded-card p-8 text-center h-full">
               {{ $image := .Params.image }}
               {{ if $image }}
-                <div class="mx-auto mb-6 w-28 h-28 overflow-hidden rounded-full">
-                  <img src="{{ strings.TrimPrefix "/" $image | relURL }}" alt="{{ .Title }}" class="w-full h-full object-cover" loading="lazy" />
+                <div class="mx-auto mb-6 w-28 h-28 overflow-hidden rounded-image">
+                  <img src="{{ strings.TrimPrefix "/" $image | relURL }}" alt="{{ .Title }}" class="w-full h-full object-cover" style="object-position: center top;" loading="lazy" />
                 </div>
               {{ end }}
               <h5 class="mb-3">

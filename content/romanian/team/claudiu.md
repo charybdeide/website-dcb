@@ -1,6 +1,6 @@
 ---
 title: "Claudiu Hurban"
-image: "/images/team/Claudiu-DCB.jpg"
+image: "/images/team/Claudiu.jpg"
 draft: false
 weight: 1
 ---

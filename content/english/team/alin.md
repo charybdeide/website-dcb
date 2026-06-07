@@ -1,6 +1,6 @@
 ---
 title: "Alin Radu"
-image: "/images/team/Alin-DCB.jpg"
+image: "/images/team/Alin.jpg"
 draft: false
 weight: 1
 ---

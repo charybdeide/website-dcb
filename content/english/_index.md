@@ -7,7 +7,7 @@ image: "/images/fallback.png"
 banner:
   title: "Diaspora Civică Berlin"
   content: "We contribute to a society in which citizens organize themselves, know and exercise their rights and responsibilities."
-  image: "/images/sebastian-herrmann-k08MDpZm5zY-unsplash.jpg"
+  image: "/images/sebastian-herrmann-k08MDpZm5zY-unsplash-2.jpg"
   button:
     enable: true
     label: "Get Involved"

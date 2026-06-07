@@ -4,14 +4,14 @@
 <section class="section" style="padding-top: 0;">
   <div class="container">
     {{ if .image }}
-    <div class="rounded-card overflow-hidden relative" style="border-top-left-radius: 0; border-top-right-radius: 0;">
-      <img src="{{ strings.TrimPrefix `/` .image | relURL }}" alt="" class="w-full h-[28rem] md:h-[34rem] object-cover" loading="eager" />
-      <div class="absolute inset-0 bg-white/70 dark:bg-black/60 flex items-center justify-center px-4" style="padding-top: 5rem;">
+    <div class="rounded-card overflow-hidden relative home-banner-card" style="border-top-left-radius: 0; border-top-right-radius: 0;">
+      <img src="{{ strings.TrimPrefix `/` .image | relURL }}" alt="" class="w-full h-auto block" loading="eager" />
+      <div class="absolute inset-0 bg-white/70 dark:bg-black/60 flex items-center justify-center px-4 home-banner-overlay">
         <div class="text-center lg:max-w-[60%] md:max-w-[80%]">
           <h1 class="mb-4 text-h3 lg:text-h1">
             {{ .title | markdownify }}
           </h1>
-          <p class="mb-8 text-xl">
+          <p class="text-black mb-8 text-xl">
             {{ .content | markdownify }}
           </p>
           {{ with .button }}
@@ -149,7 +149,7 @@
 {{ with .Params.newsletter }}
 <section class="mb-28">
   <div class="container">
-    <div class="bg-body dark:bg-darkmode-body rounded-section px-4 py-16 xl:p-20 text-center border border-black dark:border-darkmode-border">
+    <div class="bg-body dark:bg-darkmode-body rounded-section px-4 pt-10 pb-6 xl:pt-2 xl:pb-8 xl:px-14 text-center border border-black dark:border-darkmode-border">
       <h2 class="mb-2">
         {{ .title | markdownify }}
       </h2>
@@ -160,7 +160,7 @@
           </p>
         </div>
       </div>
-      <iframe class="mx-auto" src="https://diasporacivicaberlin.substack.com/embed?transparent=1" width="580" height="150" style="border: 0; background: transparent" frameborder="0" scrolling="no"></iframe>
+      <iframe class="mx-auto w-full" src="https://diasporacivicaberlin.substack.com/embed?transparent=1" height="150" style="max-width: 580px; border: 0; background: transparent" frameborder="0" scrolling="no"></iframe>
     </div>
   </div>
 </section>

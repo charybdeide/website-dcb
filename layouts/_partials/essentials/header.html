@@ -3,7 +3,7 @@
   class="header {{ if site.Params.navbar_fixed }}sticky top-0{{ end }} z-30">
   <nav class="navbar container">
     <!-- logo -->
-    <div class="order-0 ml-4 lg:ml-8">
+    <div class="order-0 lg:ml-8">
       <!-- navbar brand/logo -->
       <a class="navbar-brand block" href="{{ site.Home.RelPermalink }}">
         {{/* https://github.com/gethugothemes/hugo-modules/tree/master/images */}}
@@ -116,13 +116,13 @@
       {{ end }}
     </ul>
 
-    <div class="order-1 ml-auto flex items-center md:order-2 lg:ml-0">
+    <div class="order-1 ml-auto flex items-center md:order-2 lg:ml-0 desktop-only">
       {{ with site.Params.search }}
         {{ if .enable }}
           <button
             aria-label="search"
             class="border-border text-text-dark hover:text-primary
-            dark:border-darkmode-border mr-5 inline-block border-r pr-5
+            dark:border-darkmode-border mr-2 lg:mr-5 inline-block border-r pr-2 lg:pr-5
             text-xl dark:text-white cursor-pointer dark:hover:text-darkmode-primary
             {{ if not (or site.Params.navigation_button.enable site.Params.theme_switcher) }}
               lg:border-r-0 lg:pr-0
@@ -133,8 +133,8 @@
         {{ end }}
       {{ end }}
 
-      {{ partial "components/language-switcher" (dict "Context" . "Class" "mr-5 pl-2 py-1 dark:bg-darkmode-light rounded-[10px]") }}
-      {{ partial "components/theme-switcher" (dict "Class" "mr-5") }}
+      {{ partial "components/language-switcher" (dict "Context" . "Class" "mr-2 lg:mr-5 pl-2 py-1 bg-transparent rounded-[1.5rem]") }}
+      {{ partial "components/theme-switcher" (dict "Class" "mr-2 lg:mr-5") }}
 
 
       <!-- navigation btn -->

@@ -15,13 +15,16 @@
           {{ range site.Menus.footer }}
             <li class="m-3 inline-block">
               <a
-                {{ if findRE `^http` .URL }}
+                {{ if or (findRE `^http` .URL) .Params.asset }}
                   target="_blank" rel="noopener"
                 {{ end }}
                 href="{{ if findRE `^#` .URL }}
                   {{ if not $.IsHome }}
                     {{ site.Home.RelPermalink }}
                   {{ end }}{{ .URL }}
+                {{ else if .Params.asset }}
+                  {{/* static file, shared across languages */}}
+                  {{ .URL | relURL }}
                 {{ else }}
                   {{ .URL | relLangURL }}
                 {{ end }}"

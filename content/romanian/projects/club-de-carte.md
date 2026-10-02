@@ -10,5 +10,5 @@ Clubul de Carte DCB este un spațiu informal pentru românii din Berlin care vor
 
 Ne vedem la o cafenea cozy pentru o conversație relaxată și inspirațională între cititori.
 
-Vezi mai multe detalii si inscrie-te pe [meetup](https://www.meetup.com/diaspora-civica-berlin/events/313834927/?_xtd=gqFyqTE5OTg5Mjg5MaFwo2FwaQ%253D%253D&from=ref).
+Vezi mai multe detalii si inscrie-te pe [meetup](https://www.meetup.com/diaspora-civica-berlin/).
 

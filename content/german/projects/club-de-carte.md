@@ -10,4 +10,4 @@ Der DCB Buchclub ist ein informeller Raum für Rumänen in Berlin, die über Bü
 
 Wir treffen uns in einem gemütlichen Café für ein entspanntes und inspirierendes Gespräch unter Lesern.
 
-Weitere Details und Anmeldung auf [Meetup](https://www.meetup.com/diaspora-civica-berlin/events/313834927/?_xtd=gqFyqTE5OTg5Mjg5MaFwo2FwaQ%253D%253D&from=ref).
+Weitere Details und Anmeldung auf [Meetup](https://www.meetup.com/diaspora-civica-berlin/).

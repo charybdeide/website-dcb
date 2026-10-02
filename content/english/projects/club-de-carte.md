@@ -10,4 +10,4 @@ The DCB Book Club is an informal space for Romanians in Berlin who want to discu
 
 We meet at a cozy café for a relaxed and inspiring conversation among readers.
 
-See more details and sign up on [meetup](https://www.meetup.com/diaspora-civica-berlin/events/313834927/?_xtd=gqFyqTE5OTg5Mjg5MaFwo2FwaQ%253D%253D&from=ref).
+See more details and sign up on [meetup](https://www.meetup.com/diaspora-civica-berlin/).

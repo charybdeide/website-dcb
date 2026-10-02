@@ -6,7 +6,7 @@ image: "/images/fallback.png"
 
 banner:
   title: "Diaspora Civică Berlin"
-  content: "Wir tragen zu einer Gesellschaft bei, in der sich die Bürger organisieren, ihre Rechte und Pflichten kennen und ausüben."
+  content: "Wir tragen zu einer Gesellschaft bei, in der sich die Bürger organisieren, ihre Rechte und Pflichten kennen und ausüben"
   image: "/images/sebastian-herrmann-k08MDpZm5zY-unsplash-2.jpg"
   button:
     enable: true

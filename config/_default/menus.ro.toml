@@ -47,5 +47,7 @@
 
 [[footer]]
   name = "Statut"
-  pageRef = "/satzung"
+  url = "/documents/satzung-rumaenische-diaspora-initiative-ev.pdf"
   weight = 4
+  [footer.params]
+    asset = true

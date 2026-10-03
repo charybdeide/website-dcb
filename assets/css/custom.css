@@ -18,3 +18,16 @@ h1, h2, h3, h4, h5, h6 {
 .btn               { border-radius: var(--radius-button); }
 .input-control     { border-radius: var(--radius-image); }
 .social-icons li a { border-radius: var(--radius-image); }
+
+/* Paragraphs in .content — replaces the generated Tailwind-typography prose
+   rules (prose-p:text-base + the 1.25em top/bottom margins). custom.css is
+   imported last and unlayered, so this beats @layer components. */
+.content p {
+  font-size: inherit;
+  line-height: 1.6;
+  margin: 0 0 1.25em;
+}
+
+.content p:last-child {
+  margin-bottom: 0;
+}

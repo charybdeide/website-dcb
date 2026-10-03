@@ -4,6 +4,19 @@ layout: single
 meta_title: "Despre — Diaspora Civică Berlin"
 description: "Află despre Diaspora Civică Berlin, misiunea și valorile noastre."
 draft: false
+vision:
+  title: "Viziunea"
+  text: |
+    Diaspora Civică Berlin își imaginează o societate în care cetățenii, indiferent de locul în care trăiesc, își asumă responsabilitatea de a modela viitorul prin implicare civică, participare democratică și solidaritate. Ne dorim o diasporă care conectează România, Germania și Europa prin încredere, cooperare și schimb de idei, contribuind la consolidarea unor societăți deschise, echitabile și reziliente. Credem că implicarea civică de astăzi poate genera schimbări durabile pentru generațiile viitoare.
+mission:
+  title: "Misiunea"
+  text: |
+    Misiunea Diaspora Civică Berlin este de a sprijini comunitatea românilor din Berlin să fie mai bine informată, mai conectată și mai implicată în viața civică și democratică. 
+
+    Ne propunem sa construim spații de dialog, învățare și colaborare, promovăm participarea civică și reprezentăm vocea comunității în relația cu instituțiile și partenerii relevanți. 
+
+    In acelasi timp, ne propunem sa adresam interesele comunității în dialogul cu autoritățile și partenerii din România și Germania, dar si dezvoltăm proiecte care răspund nevoilor identificate împreună cu aceasta. Credem că o comunitate puternică se construiește prin implicare, încredere și colaborare.
+
 values:
   title: "Valorile Noastre."
   items:
@@ -23,23 +36,3 @@ values:
       title: "Solidaritate"
       description: "În DCB suntem solidari unii cu alții, ne ajutăm și sprijinim în cadrul echipei. În sens mai larg, suntem solidari cu alți cetățeni români din diaspora pentru care dezvoltăm întâlniri, evenimente și proiecte."
 ---
-
-{{< youtube msG75zWpXyM >}}
-
-## Viziunea Diasporei Civice Berlin.
-
-Diaspora Civică Berlin contribuie la o societate în care cetățenii se implică activ civic și politic pentru a susține dezvoltarea durabilă în România, Germania și la nivel internațional/global. Printr-o rețea de oameni implicați civic lucrăm la întărirea cooperării europene și globale — în sens pro-democratic, axat pe justiție socială și climatică — pentru un impact pozitiv pe termen lung asupra lumii.
-
-## Misiunea Noastra.
-
-**Misiunea** Diaspora Civică Berlin (DCB) este susținerea comunității românilor din Berlin. Dorim ca aceștia să devină cetățeni activi care pot să se organizeze, să își cunoască și exercite drepturile și responsabilitățile în societatea/societățile în care trăiesc.
-
-Pe plan extern, DCB este o voce a nevoilor și dorințelor comunității române prin prisma proiectelor desfășurate împreună cu aceasta.
-
-**Activitățile** desfășurate de noi sunt variate — de la evenimente fizice la campanii de informare (online și offline) la parteneriate cu alte organizații, workshop-uri educaționale, evenimente culturale, etc. Un proiect poate incorpora mai multe dintre aceste activități.
-
-Parte din activitatea noastră este și luarea de poziții publice pe diverse teme de interes pentru grupurile țintă și activitatea organizației. Participăm de asemenea la dezbateri publice cu autoritățile române și germane și facilităm dialogul dintre comunitatea de români și instituțiile publice.
-
-Deoarece comunitatea stă la baza activității noastre, organizăm regulat și evenimente sociale pentru a menține viu contactul cu susținătorii și partenerii noștri.
-
-Temele de proiect și activitățile sunt decise de echipa DCB pe baza misiunii, a viziunii și a valorilor noastre.

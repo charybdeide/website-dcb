@@ -1,7 +1,10 @@
 {{ define "main" }}
 
+  {{ $hasIntro := ne (trim .RawContent " \n\r\t") "" }}
 
-  <section class="section-sm">
+  <!-- Intro / embedded media -->
+  {{ if $hasIntro }}
+  <section class="section-sm pb-4">
     <div class="container">
       <div class="row justify-center">
         <div class="lg:col-8">
@@ -12,6 +15,47 @@
       </div>
     </div>
   </section>
+  {{ end }}
+
+  <!-- Vision -->
+  {{ with .Params.vision }}
+  <section class="section-sm pb-4{{ if $hasIntro }} pt-4{{ end }}">
+    <div class="container">
+      <div class="bg-light dark:bg-darkmode-light rounded-section px-4 py-16 xl:p-20">
+        <div class="row justify-center">
+          <div class="lg:col-10">
+            <h2 class="mb-4">
+              {{ .title | markdownify }}
+            </h2>
+            <div class="content text-lg">
+              {{ .text | markdownify }}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  {{ end }}
+
+  <!-- Mission -->
+  {{ with .Params.mission }}
+  <section class="section-sm pt-4 pb-4">
+    <div class="container">
+      <div class="bg-light dark:bg-darkmode-light rounded-section px-4 py-16 xl:p-20">
+        <div class="row justify-center">
+          <div class="lg:col-10">
+            <h2 class="mb-4">
+              {{ .title | markdownify }}
+            </h2>
+            <div class="content text-lg">
+              {{ .text | markdownify }}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  {{ end }}
 
   {{ with .Params.values }}
   <section class="section-sm pt-0">

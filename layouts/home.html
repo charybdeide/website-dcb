@@ -147,7 +147,7 @@
 
 <!-- Newsletter -->
 {{ with .Params.newsletter }}
-<section class="mb-28">
+<section class="mb-16">
   <div class="container">
     <div class="bg-body dark:bg-darkmode-body rounded-section px-4 pt-10 pb-6 xl:pt-8 xl:pb-6 xl:px-14 text-center border border-black dark:border-darkmode-border">
       <h2 class="mb-2">
@@ -167,14 +167,9 @@
 {{ end }}
 <!-- /Newsletter -->
 
-<!-- Call to action -->
-{{ partial "call-to-action" . }}
-<!-- /Call to action -->
-
-
 <!-- Intro -->
 {{ range .Params.intro }}
-<section class="pb-4 pt-0">
+<section class="pb-16 pt-0">
   <div class="container">
     <div class="bg-light dark:bg-darkmode-light rounded-section px-4 py-16 xl:p-20">
       <div class="row items-center justify-between">
@@ -211,6 +206,10 @@
 </section>
 {{ end }}
 <!-- /Intro -->
+
+<!-- Call to action -->
+{{ partial "call-to-action" . }}
+<!-- /Call to action -->
 
 <!-- Friends / Partners -->
 {{ with site.GetPage "sections/partners" }}

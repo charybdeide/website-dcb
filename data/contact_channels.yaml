@@ -1,0 +1,39 @@
+# Single source of truth for the organisation's public contact channels.
+#
+#   label  — display text on the contact / get-involved pages
+#   name   — short channel name, used as the footer icon's aria-label
+#   social — include this channel in the footer's social icon row
+#
+# Rendered by layouts/_partials/components/contact-channels.html and by the
+# social row in layouts/_partials/essentials/footer.html. Language-neutral,
+# so one list serves all three languages (Hugo data files are site-wide).
+main:
+  - name: "Email"
+    icon: "fa-regular fa-envelope"
+    label: "contact@diasporacivica.berlin"
+    link: "mailto:contact@diasporacivica.berlin"
+  - name: "Facebook"
+    icon: "fa-brands fa-facebook"
+    label: "@diasporacivicaberlin"
+    link: "https://www.facebook.com/diasporacivicaberlin"
+    social: true
+  - name: "Instagram"
+    icon: "fa-brands fa-instagram"
+    label: "diasporacivicaberlin"
+    link: "https://www.instagram.com/diasporacivicaberlin/"
+    social: true
+  - name: "LinkedIn"
+    icon: "fa-brands fa-linkedin"
+    label: "diaspora-civica-berlin"
+    link: "https://www.linkedin.com/company/diaspora-civica-berlin/"
+    social: true
+  - name: "Substack"
+    icon: "fa-brands fa-substack"
+    label: "diasporacivicaberlin.substack.com"
+    link: "https://diasporacivicaberlin.substack.com/"
+    social: true
+  - name: "Meetup"
+    icon: "fa-brands fa-meetup"
+    label: "meetup.com/diaspora-civica-berlin"
+    link: "https://www.meetup.com/diaspora-civica-berlin/"
+    social: true

@@ -1,0 +1,17 @@
+{{/* Contact channel grid. Data: data/contact_channels.yaml */}}
+<div class="row justify-center">
+  {{ range site.Data.contact_channels.main }}
+    <div class="md:col-4 mb-8 text-center">
+      <a
+        href="{{ .link }}"
+        {{ if not (hasPrefix .link "mailto:") }}
+          target="_blank" rel="noopener"
+        {{ end }}
+        class="group">
+        <i
+          class="{{ .icon }} text-4xl text-primary mb-4 inline-block group-hover:scale-110 transition-transform"></i>
+        <p class="text-lg font-semibold">{{ .label }}</p>
+      </a>
+    </div>
+  {{ end }}
+</div>

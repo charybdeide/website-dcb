@@ -73,17 +73,12 @@ copyright = "© 2025 Diaspora Civică Berlin — Rumänische Diaspora Initiative
   sidebar = ["categories", "tags"]
 
 # Plugins
+# Font Awesome Free 7.3.1, self-hosted (see assets/plugins/font-awesome/).
+# all.min.css bundles core + solid + regular + brands. Its @font-face rules
+# use url(../webfonts/...), which resolves to the site root — the woff2 files
+# live in static/webfonts/.
 [[plugins.css]]
-  link = "plugins/font-awesome/v6/icons.css"
-
-[[plugins.css]]
-  link = "plugins/font-awesome/v6/solid.css"
-
-[[plugins.css]]
-  link = "plugins/font-awesome/v6/regular.css"
-
-[[plugins.css]]
-  link = "plugins/font-awesome/v6/brands.css"
+  link = "plugins/font-awesome/css/all.min.css"
 
 [[plugins.css]]
   link = "plugins/swiper/swiper-bundle.css"

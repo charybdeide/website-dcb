@@ -18,21 +18,23 @@ mission:
     In acelasi timp, ne propunem sa adresam interesele comunității în dialogul cu autoritățile și partenerii din România și Germania, dar si dezvoltăm proiecte care răspund nevoilor identificate împreună cu aceasta. Credem că o comunitate puternică se construiește prin implicare, încredere și colaborare.
 
 values:
-  title: "Valorile Noastre."
+  title: "Valorile Noastre"
   items:
-    - icon: "fas fa-hands-helping"
-      title: "Colegialitate"
-      description: "La baza DCB stau o apreciere și un respect mutual care se regăsesc în modul în care lucrăm împreună."
-    - icon: "fas fa-podcast"
-      title: "Integritate"
-      description: "În DCB spunem ceea ce gândim, facem ceea ce spunem și ne asumăm ceea ce facem."
-    - icon: "far fa-id-badge"
-      title: "Transparență"
-      description: "În DCB suntem direcți și sinceri unii cu ceilalți. Activitățile și modul nostru de lucru sunt la rândul lor transparente și accesibile celor care sunt interesați de ele."
-    - icon: "fas fa-puzzle-piece"
-      title: "Responsabilitate"
-      description: "În DCB ne asumăm responsabilitatea pentru conținutul evenimentelor și proiectelor noastre și a modului în care colaborăm cu partenerii și susținătorii noștri. Ne simțim responsabili la nivel social și asta stă la baza implicării noastre civice."
     - icon: "fas fa-users"
       title: "Solidaritate"
-      description: "În DCB suntem solidari unii cu alții, ne ajutăm și sprijinim în cadrul echipei. În sens mai larg, suntem solidari cu alți cetățeni români din diaspora pentru care dezvoltăm întâlniri, evenimente și proiecte."
+      description: "Credem că schimbarea se construiește împreună. Ne sprijinim reciproc, colaborăm și acționăm în interesul comunității."
+    - icon: "fas fa-hands-helping"
+      title: "Implicare"
+      description: "Încurajăm participarea activă, inițiativa și asumarea responsabilității în viața comunității și în procesele democratice."
+    - icon: "fas fa-puzzle-piece"
+      title: "Responsabilitate"
+      description: "Ne asumăm impactul acțiunilor noastre și contribuim activ la binele comun, cu respect față de comunitate, parteneri și societate."
+    - icon: "fas fa-podcast"
+      title: "Deschidere"
+      description: "Ascultăm perspective diferite, cultivăm dialogul și încurajăm schimbul de idei într-un climat de respect."
+    - icon: "fa-solid fa-hand-fist"
+      title: "Curaj Civic"
+      description: "Luăm poziție atunci când valorile democratice sunt puse în discuție și susținem implicarea civică responsabilă."
+    
+    
 ---

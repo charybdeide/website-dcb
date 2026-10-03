@@ -1,5 +1,26 @@
 {{ define "main" }}
 
+  <!-- Intro -->
+  {{ with .Params.intro }}
+  <section class="section-sm">
+    <div class="container">
+      <div class="bg-light dark:bg-darkmode-light rounded-section px-4 py-16 xl:p-20">
+        <div class="row justify-center">
+          <div class="lg:col-10">
+            <h2 class="mb-4 text-center">
+              {{ .title | markdownify }}
+            </h2>
+            <div class="content">
+              {{ .text | markdownify }}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  {{ end }}
+
+  <!-- Donation methods -->
   <section class="section-sm">
     <div class="container">
       <div class="row">

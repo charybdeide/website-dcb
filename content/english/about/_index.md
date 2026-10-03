@@ -5,40 +5,33 @@ meta_title: "About — Diaspora Civică Berlin"
 description: "Learn about Diaspora Civică Berlin, our mission, vision and values."
 draft: false
 vision:
-  title: "The Vision of Diaspora Civică Berlin."
+  title: "Vision"
   text: |
-    Diaspora Civică Berlin is contributing to a society in which its citizens are civically and politically engaged, in order to support long-term development in Romania, Germany, as well as at an international/global level. Through a network of involved and active citizens, we're working towards strengthening European and global cooperation — in a pro-democratic sense, focused on climate and social justice — for a long-term positive impact on the whole world.
+    Diaspora Civică Berlin envisions a society in which citizens, wherever they live, take responsibility for shaping the future through civic engagement, democratic participation and solidarity. We want a diaspora that connects Romania, Germany and Europe through trust, cooperation and the exchange of ideas, contributing to stronger, more open, equitable and resilient societies. We believe that civic engagement today can bring about lasting change for the generations to come.
 mission:
-  title: "The Mission of Diaspora Civică Berlin."
+  title: "Mission"
   text: |
-    **The mission** of the Diaspora Civică Berlin (DCB) is supporting the Romanian community in Berlin. We want its members to become active citizens that can organize themselves, know and exercise their rights and responsibilities in the society/societies they live in.
+    The mission of Diaspora Civică Berlin is to support the Romanian community in Berlin in becoming better informed, better connected and more involved in civic and democratic life.
 
-    Externally, Diaspora Civică Berlin is the voice of the needs and wishes of the community, through the projects we develop together.
+    We set out to build spaces for dialogue, learning and collaboration, to promote civic participation, and to represent the voice of the community in its relationship with relevant institutions and partners.
 
-    **Our activities** are varied — from physical events to online and offline information campaigns, partnerships with other organizations, educational workshops, cultural events, etc. One project can incorporate a variety of activities.
-
-    A part of our activities is positioning ourselves on various topics of interest for our target audiences and that are of interest to our organization and members. We also take part in public debates with the Romanian and German authorities, facilitating the dialogue between the Romanian community and public institutions.
-
-    Because the community is at the base of our activities, we also regularly organize social events, in order to keep personal contact with our supporters and partners.
-
-    The topics of our projects and activities are decided by the Diaspora Civică Berlin team, in alignment with our mission, vision, and values.
+    At the same time, we aim to address the community's interests in dialogue with authorities and partners in Romania and Germany, and we develop projects that respond to needs identified together with the community. We believe that a strong community is built through engagement, trust and collaboration.
 values:
-  title: "Our Values."
+  title: "Our Values"
   items:
-    - icon: "fas fa-hands-helping"
-      title: "Collegiality"
-      description: "At the core of DCB lies a mutual appreciation and respect that is reflected in the way we work together."
-    - icon: "fas fa-podcast"
-      title: "Integrity"
-      description: "At DCB we say what we think, do what we say, and take responsibility for what we do."
-    - icon: "far fa-id-badge"
-      title: "Transparency"
-      description: "At DCB we are direct and honest with each other. Our activities and way of working are transparent and accessible to anyone interested."
-    - icon: "fas fa-puzzle-piece"
-      title: "Responsibility"
-      description: "At DCB we take responsibility for the content of our events and projects, and for the way we collaborate with our partners and supporters. We feel socially responsible, and this is the basis of our civic engagement."
     - icon: "fas fa-users"
       title: "Solidarity"
-      description: "At DCB we stand by each other, helping and supporting within the team. More broadly, we stand in solidarity with other Romanian citizens in the diaspora, for whom we develop meetings, events, and projects."
+      description: "We believe change is built together. We support one another, we collaborate, and we act in the interest of the community."
+    - icon: "fas fa-hands-helping"
+      title: "Engagement"
+      description: "We encourage active participation, initiative and taking responsibility in community life and in democratic processes."
+    - icon: "fas fa-puzzle-piece"
+      title: "Responsibility"
+      description: "We take ownership of the impact of our actions and contribute actively to the common good, with respect for the community, our partners and society."
+    - icon: "fas fa-podcast"
+      title: "Openness"
+      description: "We listen to different perspectives, we cultivate dialogue and we encourage the exchange of ideas in a climate of respect."
+    - icon: "fa-solid fa-hand-fist"
+      title: "Civic Courage"
+      description: "We take a stand when democratic values are called into question, and we support responsible civic engagement."
 ---
-{{< youtube msG75zWpXyM >}}

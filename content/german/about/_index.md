@@ -5,40 +5,33 @@ meta_title: "Über uns — Diaspora Civică Berlin"
 description: "Erfahren Sie mehr über Diaspora Civică Berlin, unsere Mission und unsere Werte."
 draft: false
 vision:
-  title: "Die Vision der Diaspora Civică Berlin."
+  title: "Vision"
   text: |
-    Diaspora Civică Berlin trägt zu einer Gesellschaft bei, in der sich die Bürger aktiv bürgerlich und politisch engagieren, um eine nachhaltige Entwicklung in Rumänien, Deutschland und international/global zu unterstützen. Durch ein Netzwerk von engagierten Menschen arbeiten wir daran, die europäische und globale Zusammenarbeit — im pro-demokratischen Sinne, ausgerichtet auf soziale und klimatische Gerechtigkeit — zu stärken, um langfristig positive Auswirkungen auf die Welt zu erzielen.
+    Diaspora Civică Berlin stellt sich eine Gesellschaft vor, in der Bürgerinnen und Bürger — unabhängig davon, wo sie leben — Verantwortung dafür übernehmen, die Zukunft durch bürgerschaftliches Engagement, demokratische Teilhabe und Solidarität zu gestalten. Wir wünschen uns eine Diaspora, die Rumänien, Deutschland und Europa durch Vertrauen, Zusammenarbeit und den Austausch von Ideen verbindet und so zu offeneren, gerechteren und widerstandsfähigeren Gesellschaften beiträgt. Wir sind überzeugt, dass bürgerschaftliches Engagement heute dauerhafte Veränderungen für kommende Generationen bewirken kann.
 mission:
-  title: "Die Mission der Diaspora Civică Berlin."
+  title: "Mission"
   text: |
-    **Die Mission** der Diaspora Civică Berlin (DCB) ist es, die rumänische Gemeinschaft in Berlin zu unterstützen. Wir möchten, dass sie aktive Bürger werden, die sich besser organisieren, die ihre Rechte und Pflichten in der Gesellschaft/den Gesellschaften, in denen sie leben, kennenlernen und ausüben.
+    Die Mission der Diaspora Civică Berlin ist es, die rumänische Gemeinschaft in Berlin dabei zu unterstützen, besser informiert, stärker vernetzt und aktiver am zivilgesellschaftlichen und demokratischen Leben beteiligt zu sein.
 
-    Für die Öffentlichkeit ist Diaspora Civică Berlin eine Stimme der Bedürfnisse und Wünsche der rumänischen Gemeinschaft auf Basis von den durchgeführten Projekte.
+    Wir schaffen Räume für Dialog, Lernen und Zusammenarbeit, fördern die bürgerschaftliche Teilhabe und vertreten die Stimme der Gemeinschaft gegenüber relevanten Institutionen und Partnern.
 
-    **Unsere Aktivitäten** sind vielfältig — von physischen Veranstaltungen bis zu Informationskampagnen (online und offline), Partnerschaften mit anderen Organisationen, Bildungsworkshops, kulturelle Veranstaltungen, usw. Ein Projekt kann mehrere dieser Kernaktivitäten umfassen.
-
-    Ein Teil unserer Aktivitäten besteht auch darin, öffentliche Positionen zu verschiedenen Themen einzunehmen, die für die Zielgruppen und die Beschäftigung der Organisation von Interesse sind. Wir beteiligen uns auch an öffentlichen Debatten mit den rumänischen und deutschen Behörden und erleichtern den Dialog zwischen der rumänischen Gemeinschaft und öffentlichen Institutionen.
-
-    Da die Community die Grundlage unserer Aktivitäten ist, organisieren wir auch regelmäßig gesellschaftliche Veranstaltungen, um den Kontakt zu unseren Unterstützern und Partnern aufrechtzuerhalten.
-
-    Die Projektthemen und -aktivitäten werden vom Diaspora Civică Berlin-Team auf der Grundlage unserer Mission, Vision und Werte festgelegt.
+    Gleichzeitig bringen wir die Interessen der Gemeinschaft in den Dialog mit Behörden und Partnern in Rumänien und Deutschland ein und entwickeln Projekte, die auf gemeinsam ermittelte Bedürfnisse eingehen. Wir sind überzeugt, dass eine starke Gemeinschaft durch Engagement, Vertrauen und Zusammenarbeit entsteht.
 values:
-  title: "Unsere Werte."
+  title: "Unsere Werte"
   items:
-    - icon: "fas fa-hands-helping"
-      title: "Kollegialität"
-      description: "Die Grundlage der DCB bilden gegenseitige Wertschätzung und Respekt, die sich in unserer Zusammenarbeit widerspiegeln."
-    - icon: "fas fa-podcast"
-      title: "Integrität"
-      description: "Bei DCB sagen wir, was wir denken, tun, was wir sagen, und stehen zu dem, was wir tun."
-    - icon: "far fa-id-badge"
-      title: "Transparenz"
-      description: "Bei DCB sind wir direkt und ehrlich zueinander. Unsere Aktivitäten und Arbeitsweise sind transparent und für alle Interessierten zugänglich."
-    - icon: "fas fa-puzzle-piece"
-      title: "Verantwortung"
-      description: "Bei DCB übernehmen wir die Verantwortung für den Inhalt unserer Veranstaltungen und Projekte sowie für die Art und Weise, wie wir mit unseren Partnern und Unterstützern zusammenarbeiten. Wir fühlen uns sozial verantwortlich, und das ist die Grundlage unseres bürgerschaftlichen Engagements."
     - icon: "fas fa-users"
       title: "Solidarität"
-      description: "Bei DCB stehen wir füreinander ein und unterstützen uns im Team. Im weiteren Sinne sind wir solidarisch mit anderen rumänischen Bürgern in der Diaspora, für die wir Treffen, Veranstaltungen und Projekte entwickeln."
+      description: "Wir glauben, dass Veränderung gemeinsam entsteht. Wir unterstützen einander, arbeiten zusammen und handeln im Interesse der Gemeinschaft."
+    - icon: "fas fa-hands-helping"
+      title: "Engagement"
+      description: "Wir fördern aktive Teilhabe, Eigeninitiative und die Übernahme von Verantwortung im Gemeinschaftsleben und in demokratischen Prozessen."
+    - icon: "fas fa-puzzle-piece"
+      title: "Verantwortung"
+      description: "Wir übernehmen Verantwortung für die Wirkung unseres Handelns und tragen aktiv zum Gemeinwohl bei, mit Respekt gegenüber der Gemeinschaft, unseren Partnern und der Gesellschaft."
+    - icon: "fas fa-podcast"
+      title: "Offenheit"
+      description: "Wir hören unterschiedlichen Perspektiven zu, pflegen den Dialog und fördern den Austausch von Ideen in einem Klima des Respekts."
+    - icon: "fa-solid fa-hand-fist"
+      title: "Zivilcourage"
+      description: "Wir beziehen Stellung, wenn demokratische Werte in Frage gestellt werden, und unterstützen verantwortungsvolles bürgerschaftliches Engagement."
 ---
-{{< youtube msG75zWpXyM >}}

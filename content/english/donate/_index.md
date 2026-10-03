@@ -4,6 +4,16 @@ layout: single
 meta_title: "Donate — Diaspora Civică Berlin"
 description: "Support our work with a donation."
 draft: false
+intro:
+  title: "Support Diaspora Civică Berlin"
+  text: |
+    Diaspora Civică Berlin is an organisation built on volunteering and civic engagement. Although we apply for grants and funding continuously, these are competitive, are not always awarded, and even when they are approved they rarely cover the full cost of our activities and projects.
+
+    Donations help us organise events, develop initiatives for the community, and provide useful information and resources to Romanians living in Germany.
+
+    Every contribution, whatever its size, gives us more stability and independence to carry on what we are building together.
+
+    Thank you for your trust and your support.
 methods:
   - title: "Card or PayPal"
     content: |

@@ -23,7 +23,7 @@ h1, h2, h3, h4, h5, h6 {
    rules (prose-p:text-base + the 1.25em top/bottom margins). custom.css is
    imported last and unlayered, so this beats @layer components. */
 .content p {
-  font-size: inherit;
+  font-size: var(--text-base);
   line-height: 1.6;
   margin: 0 0 1.25em;
 }

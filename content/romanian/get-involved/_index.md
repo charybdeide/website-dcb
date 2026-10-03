@@ -14,16 +14,6 @@ intro_bulletpoints:
 intro_button: "Scrie-ne și hai să ne cunoaștem!"
 section2_title: "Cum te poți implica?"
 section2_image: "/images/about-feature.jpg"
-section2_text: "Devino membru/ă și contribuie cu expertiza și pasiunea ta. Ia parte activ la organizarea de proiecte și dezvoltarea organizației împreună cu o echipă de voluntari cu idei și valori similare. Dacă vrei să ne cunoști mai bine sau ai întrebări, hai la una din întâlnirile noastre, în fiecare marți de la 7 seara."
+section2_text: "Devino membru/ă și contribuie cu expertiza și pasiunea ta. Ia parte activ la organizarea de proiecte și dezvoltarea organizației împreună cu o echipă de voluntari cu idei și valori similare. Ai ocazia să vii cu propriile idei de proiecte, să contribui la evenimente pe care le organizăm (Clubul de Carte, Cafeneaua Civică, CineCivitas), sau să creezi conținut pentru newsletter sau social media. Dacă vrei să ne cunoști mai bine sau ai întrebări, hai la una din întâlnirile noastre, în fiecare marți de la 7 seara."
 contact_title: "Contactează-ne. Te ascultăm."
-contact_channels:
-  - icon: "fa-regular fa-envelope"
-    label: "contact@diasporacivica.berlin"
-    link: "mailto:contact@diasporacivica.berlin"
-  - icon: "fa-brands fa-facebook"
-    label: "@diasporacivicaberlin"
-    link: "https://www.facebook.com/diasporacivicaberlin"
-  - icon: "fa-brands fa-instagram"
-    label: "diasporacivicaberlin"
-    link: "https://www.instagram.com/diasporacivicaberlin/"
 ---

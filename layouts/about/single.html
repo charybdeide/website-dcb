@@ -24,11 +24,13 @@
       <div class="bg-light dark:bg-darkmode-light rounded-section px-4 py-16 xl:p-20">
         <div class="row justify-center">
           <div class="lg:col-10">
-            <h2 class="mb-4">
+            <h2 class="mb-4 text-center">
               {{ .title | markdownify }}
             </h2>
-            <div class="content text-lg">
-              {{ .text | markdownify }}
+            <div class="content">
+              <p>
+                {{ .text | markdownify }}
+              </p>
             </div>
           </div>
         </div>
@@ -44,10 +46,10 @@
       <div class="bg-light dark:bg-darkmode-light rounded-section px-4 py-16 xl:p-20">
         <div class="row justify-center">
           <div class="lg:col-10">
-            <h2 class="mb-4">
+            <h2 class="mb-4 text-center">
               {{ .title | markdownify }}
             </h2>
-            <div class="content text-lg">
+            <div class="content">
               {{ .text | markdownify }}
             </div>
           </div>

@@ -1,7 +1,7 @@
 {{ define "main" }}
 <!-- Banner -->
 {{ with .Params.banner }}
-<section class="section" style="padding-top: 0;">
+<section class="section-sm">
   <div class="container">
     {{ if .image }}
     <div class="rounded-card overflow-hidden relative home-banner-card" style="border-top-left-radius: 0; border-top-right-radius: 0;">
@@ -52,7 +52,7 @@
 
 <!-- Featured Project -->
 {{ with .Params.featured_project }}
-<section>
+<section class="section-sm">
   <div class="container">
     <div class="border border-black dark:border-white rounded-card overflow-hidden relative" style="height: 32rem;">
       <img src="{{ strings.TrimPrefix "/" .image | relURL }}" alt="{{ .title }}" class="w-full h-full object-cover" loading="lazy" />
@@ -73,7 +73,7 @@
 
 <!-- Projects Section with Carousel -->
 {{ with .Params.projects_section }}
-<section class="section">
+<section class="section-sm">
   <div class="container">
     <div class="row justify-center mb-12">
       <div class="md:col-10 lg:col-8 xl:col-6 text-center">
@@ -147,7 +147,7 @@
 
 <!-- Newsletter -->
 {{ with .Params.newsletter }}
-<section class="mb-16">
+<section class="section-sm">
   <div class="container">
     <div class="bg-body dark:bg-darkmode-body rounded-section px-4 pt-10 pb-6 xl:pt-8 xl:pb-6 xl:px-14 text-center border border-black dark:border-darkmode-border">
       <h2 class="mb-2">
@@ -169,7 +169,7 @@
 
 <!-- Intro -->
 {{ range .Params.intro }}
-<section class="pb-16 pt-0">
+<section class="section-sm">
   <div class="container">
     <div class="bg-light dark:bg-darkmode-light rounded-section px-4 py-16 xl:p-20">
       <div class="row items-center justify-between">

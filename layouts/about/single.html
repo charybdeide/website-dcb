@@ -4,7 +4,7 @@
 
   <!-- Intro / embedded media -->
   {{ if $hasIntro }}
-  <section class="section-sm pb-4">
+  <section class="section-sm">
     <div class="container">
       <div class="row justify-center">
         <div class="lg:col-8">
@@ -19,7 +19,7 @@
 
   <!-- Vision -->
   {{ with .Params.vision }}
-  <section class="section-sm pb-4{{ if $hasIntro }} pt-4{{ end }}">
+  <section class="section-sm">
     <div class="container">
       <div class="bg-light dark:bg-darkmode-light rounded-section px-4 py-16 xl:p-20">
         <div class="row justify-center">
@@ -39,7 +39,7 @@
 
   <!-- Mission -->
   {{ with .Params.mission }}
-  <section class="section-sm pt-4 pb-4">
+  <section class="section-sm">
     <div class="container">
       <div class="bg-light dark:bg-darkmode-light rounded-section px-4 py-16 xl:p-20">
         <div class="row justify-center">
@@ -58,7 +58,7 @@
   {{ end }}
 
   {{ with .Params.values }}
-  <section class="section-sm pt-0">
+  <section class="section-sm">
     <div class="container">
       <div class="row justify-center mb-12">
         <div class="lg:col-8 text-center">

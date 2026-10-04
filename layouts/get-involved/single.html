@@ -4,7 +4,7 @@
   {{ with .Params.intro_text }}
   <section class="section-sm">
     <div class="container">
-      <div class="row items-center justify-between">
+      <div class="from-body to-light dark:from-darkmode-body dark:to-darkmode-light rounded-2xl bg-gradient-to-b px-8 py-14 row items-center justify-between">
         <div class="mb:md-0 md:col-5 mb-6">
           {{ partial "image" (dict "Src" $.Params.intro_image "Alt" $.Title "DisplayXL" "520x" "DisplayLG" "425x" "DisplayMD" "360x" "Class" "rounded-image") }}
         </div>

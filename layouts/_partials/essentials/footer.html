@@ -26,7 +26,9 @@
                   {{/* static file, shared across languages */}}
                   {{ .URL | relURL }}
                 {{ else }}
-                  {{ .URL | relLangURL }}
+                  {{/* pageRef entries: .URL is already a language-aware
+                       RelPermalink, so relLangURL would prefix it twice */}}
+                  {{ .URL }}
                 {{ end }}"
                 >{{ .Name }}</a
               >

@@ -1,4 +1,7 @@
 ---
+_build:
+  render: never
+  list: never
 enable: true
 title: "Willst du etwas bewirken?"
 description: "Werde Teil von Diaspora Civică Berlin und einer Gemeinschaft, die bürgerschaftliche Teilhabe, demokratische Werte und aktive Bürgerschaft fördert."

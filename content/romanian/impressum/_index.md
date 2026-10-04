@@ -1,20 +1,33 @@
 ---
-title: "Impressum."
+title: "Impressum"
 layout: single
 meta_title: "Impressum — Diaspora Civică Berlin"
 description: "Mențiune legală"
 draft: false
 ---
 
-## Impressum
 
-**Rumänische Diaspora Initiative e.V.**
+Diaspora Civică Berlin
 
-Oderstrasse 16
-10247 Berlin
-Germania
+DCB – Rumänische Diaspora Initiative e.V.
 
-Telefon: +49 30 221 84083
-Email: contact@diasporacivica.berlin
+Registrul Comerțului Berlin-Charlottenburg
+Registernummer: VR 38094 B
 
-_Mențiunea legală completă urmează a fi adăugată._
+St-Nr: 27/663/65306
+
+### Kontakt:
+
+c/o Bunescu
+
+Oderstraße 16, 10247 Berlin
+
+E-Mail: contact@diasporacivica.com
+
+### Consiliul de administrație:
+
+Claudiu Hurban (erste Vorsitzende)
+
+Ioana Dragos (zweite Vorsitzende)
+
+Constantin-Catalin Rigu (Kassierer)

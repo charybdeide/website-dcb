@@ -1,4 +1,7 @@
 ---
+_build:
+  render: never
+  list: never
 enable: true
 title: "Freunde"
 logos:

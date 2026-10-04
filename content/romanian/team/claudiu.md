@@ -5,14 +5,20 @@ draft: false
 weight: 1
 ---
 
-Salut, Claudiu este numele meu și îți mulțumesc că te-a împins curiozitatea să afli mai multe de pe profilul meu.
+Salutare, 
 
-Sunt absolvent al unui Master în Studii Diplomatice în cadrul Academiei Mediteraneene de Studii Diplomatice din Malta și rezident în Berlin din 2010, cu mici întreruperi în care pașii profesionali m-au dus în Vienna și Amsterdam.
+Claudiu Hurban este numele și îți mulțumesc că ești curios să afli mai multe despre mine.
 
-Am experiență în cadrul organizațiilor internaționale, în domeniul de consultanță de managament și, mai nou, în dezvoltarea de evenimente și conferințe.
+Am absolvit un masterat în Studii Diplomatice la Mediterranean Diplomatic Academy din Malta și locuiesc la Berlin din 2010, cu scurte perioade în care parcursul profesional m-a purtat la Viena și Amsterdam.
 
-Și totuși lipsea ceva! Întotdeauna mi-am dorit să pot oferi ceva înapoi societății românești în care m-am format și să îmi aduc contribuția la dezvoltarea ei armonioasă într-un set de valori solide.
+Ulterior studiilor, mi-am construit cariera în jurul organizațiilor internaționale, fie publice sau private, și, mai recent, a managementului de proiect în evenimente și conferințe internaționale. Sunt domenii care m-au învățat să lucrez cu oameni și perspective diferite, să construiesc parteneriate și să transform ideile în proiecte concrete.
 
-Așa m-am alăturat Diasporei Civice Berlin unde am descoperit oameni dedicați, cu multă putere de muncă și același set de idei ca ale mele.
+Si totusi, am simțit că lipsește ceva. Mi-am dorit să ofer ceva înapoi societății românești care m-a format și să contribui, chiar și de la distanță, la dezvoltarea ei în jurul unor valori solide.
 
-Împreună, chiar și de pe alte meleaguri, putem face România o țară mai frumoasă și implicată!
+Așa am ajuns să mă alătur Diaspora Civică Berlin, unde am descoperit oameni dedicați, cu multă energie și cu aceeași dorință de a contribui la o societate românească mai implicată și mai responsabilă.
+
+Din 2022, am onoarea de a fi ales Președinte al asociației, rol în care încerc să contribui, alături de colegii mei, la dezvoltarea comunității românești din Berlin și la consolidarea legăturii dintre diaspora și România.
+
+Cred cu tărie în faptul că trăind în afara țării nu ne face mai puțin responsabili față de societatea din care venim. Dimpotrivă, diaspora poate aduce experiență, idei, conexiuni și energie civică.
+
+Împreună, chiar dacă trăim în străinătate, putem contribui la o Românie mai frumoasă, mai deschisă și mai activă civic.

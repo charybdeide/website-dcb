@@ -6,22 +6,27 @@ description: "Legal notice"
 draft: false
 ---
 
-## Legal Notice (Angaben gemäß § 5 TMG)
+Diaspora Civică Berlin
 
-**Diaspora Civică Berlin**
-**DCB - Rumänische Diaspora Initiative e.V.**
+DCB – Rumänische Diaspora Initiative e.V.
 
-**Contact:**
-c/o Bunescu
-Oderstrasse 16, 10247 Berlin
-Email: contact@diasporacivica.berlin
-
-**Board:**
-- Claudiu Hurban (1. Vorsitzende)
-- Ioana Dragos (2. Vorsitzende)
-- Constantin-Catalin Rigu (Kassierer)
-
-**Registration:**
-Eintragung im Vereinsregister des Amtsgerichts Berlin-Charlottenburg
+Registered in the register of associations at Amtsgericht Berlin-Charlottenburg
 Registernummer: VR 38094 B
-USt.-IdNr.: 27/663/65306
+
+St-Nr: 27/663/65306
+
+### Contact:
+
+c/o Bunescu
+
+Oderstraße 16, 10247 Berlin
+
+E-Mail: contact@diasporacivica.berlin
+
+### Board:
+
+Claudiu Hurban (Chairperson)
+
+Ioana Dragos (Deputy Chairperson)
+
+Constantin-Catalin Rigu (Treasurer)

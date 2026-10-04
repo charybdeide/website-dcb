@@ -1,24 +1,39 @@
 {{ define "main" }}
 
-
+  <!-- Organization info -->
+  {{ with .Params.subtitle }}
   <section class="section-sm">
     <div class="container">
-      <!-- Organization info -->
-      <div class="text-center mb-12">
-        <h3 class="mb-2">{{ .Params.subtitle }}</h3>
-        <p class="text-lg text-text-light">
-          <i class="fa-solid fa-location-dot text-primary mr-2"></i>
-          {{ .Params.address }}
-        </p>
-        {{ with site.Params.contact_info.phone }}
-        <p class="text-lg text-text-light mt-2">
-          <i class="fa-solid fa-phone text-primary mr-2"></i>
-          <a href="tel:{{ . }}">{{ . }}</a>
-        </p>
-        {{ end }}
+      <div class="from-body to-light dark:from-darkmode-body dark:to-darkmode-light rounded-2xl bg-gradient-to-b px-8 py-14">
+        <div class="row justify-center">
+          <div class="lg:col-10">
+            <h2 class="mb-4 text-center">
+              {{ . | markdownify }}
+            </h2>
+            <div class="content text-center">
+              {{ with $.Params.address }}
+                <p>
+                  <i class="fa-solid fa-location-dot text-primary mr-2"></i>
+                  {{ . }}
+                </p>
+              {{ end }}
+              {{ with site.Params.contact_info.phone }}
+                <p>
+                  <i class="fa-solid fa-phone text-primary mr-2"></i>
+                  <a href="tel:{{ . }}">{{ . }}</a>
+                </p>
+              {{ end }}
+            </div>
+          </div>
+        </div>
       </div>
+    </div>
+  </section>
+  {{ end }}
 
-      <!-- Contact channels -->
+  <!-- Contact channels -->
+  <section class="section-sm">
+    <div class="container">
       {{ partial "components/contact-channels.html" . }}
     </div>
   </section>

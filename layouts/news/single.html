@@ -7,7 +7,16 @@
           {{ $image:= .Params.image }}
           {{ if $image }}
             <div class="mb-10">
-              {{ partial "image" (dict "Src" $image "Context" .Page "Alt" .Title "Class" "w-full rounded-image") }}
+              {{/* article header: real srcset up to 2x the ~1050px lg:col-10 slot,
+                   clamped to each source's own width so small originals are
+                   never upscaled */}}
+              {{ partial "components/img.html" (dict
+                "Src" $image
+                "Alt" .Title
+                "Widths" (slice 575 768 1024 1400 2100)
+                "Sizes" "(max-width: 575px) 100vw, (max-width: 1199px) 92vw, 1050px"
+                "Class" "w-full rounded-image"
+              ) }}
             </div>
           {{ end }}
           <h1 class="h2 mb-4">

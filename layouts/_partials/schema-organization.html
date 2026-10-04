@@ -5,8 +5,14 @@
   "name": "Diaspora Civică Berlin",
   "alternateName": "DCB — Rumänische Diaspora Initiative e.V.",
   "url": "{{ site.BaseURL }}",
-  "logo": "{{ site.BaseURL }}images/logo.png",
-  "image": "{{ site.BaseURL }}images/fallback.png",
+  {{/* logo.png and fallback.png live in assets/ — resolve through the
+       pipeline so the files are actually published */}}
+  {{- with resources.Get "images/logo.png" }}
+  "logo": "{{ .Permalink }}",
+  {{- end }}
+  {{- with resources.Get "images/fallback.png" }}
+  "image": "{{ .Permalink }}",
+  {{- end }}
   "description": "{{ site.Params.metadata.meta_description }}",
   "address": {
     "@type": "PostalAddress",

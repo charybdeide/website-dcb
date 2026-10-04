@@ -2,6 +2,12 @@
 # Logo
 logo = "images/logo.png"
 logo_darkmode = "images/logo-darkmode.png"
+# Display size of the logo (source is 1201x522). The logo partial uses these
+# for the width/height attributes and renders a 2x (230px) webp. Without them
+# it stamps the full 1201x522 on the tag, which the 50px height in
+# custom.css then squashes into a stretched image.
+logo_width = "115"
+logo_height = "50"
 favicon = "images/favicon.png"
 
 # Navbar

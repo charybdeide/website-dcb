@@ -9,7 +9,25 @@
   "description": "{{ . }}",
   {{- end }}
   {{- with $image }}
-  "image": "{{ site.BaseURL }}{{ strings.TrimPrefix "/" . }}",
+    {{- $src := strings.TrimPrefix "/" . -}}
+    {{- $url := "" -}}
+    {{- if hasPrefix $src "http" -}}
+      {{- $url = $src -}}
+    {{- else -}}
+      {{- with resources.Get $src -}}
+        {{- /* images live in assets/ now: publish a resized rendition and use
+               its absolute URL. Keep the original format — some social and
+               search crawlers still do not accept webp. */ -}}
+        {{- if eq (path.Ext $src) ".svg" -}}
+          {{- $url = .Permalink -}}
+        {{- else -}}
+          {{- $url = (.Resize "1200x").Permalink -}}
+        {{- end -}}
+      {{- else -}}
+        {{- $url = (printf "%s%s" site.BaseURL $src) -}}
+      {{- end -}}
+    {{- end }}
+  "image": "{{ $url }}",
   {{- end }}
   "datePublished": "{{ .PublishDate.Format "2006-01-02T15:04:05Z07:00" }}",
   {{- with .Lastmod }}
@@ -25,7 +43,9 @@
     "name": "Diaspora Civică Berlin",
     "logo": {
       "@type": "ImageObject",
-      "url": "{{ site.BaseURL }}images/logo.png"
+      {{- with resources.Get "images/logo.png" }}
+      "url": "{{ .Permalink }}"
+      {{- end }}
     }
   },
   "inLanguage": "{{ site.LanguageCode }}",

@@ -1,1 +1,8 @@
-<img src="{{ strings.TrimPrefix "/" .Destination | relURL }}" alt="{{ .Text }}" {{ with .Title }}title="{{ . }}"{{ end }} loading="lazy" />
+{{/* inline markdown images: route through the theme partial so they are
+     resized and served as webp (with a jpeg onerror fallback) */}}
+{{ partial "image" (dict
+  "Src" (strings.TrimPrefix "/" .Destination)
+  "Context" .Page
+  "Alt" .Text
+  "Class" "rounded-image"
+) }}

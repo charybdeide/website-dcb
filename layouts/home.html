@@ -5,7 +5,15 @@
   <div class="container">
     {{ if .image }}
     <div class="rounded-card overflow-hidden relative home-banner-card" style="border-top-left-radius: 0; border-top-right-radius: 0;">
-      <img src="{{ strings.TrimPrefix `/` .image | relURL }}" alt="" class="w-full h-auto block" loading="eager" />
+      {{/* LCP hero: eager + high priority, resized and served as webp */}}
+      {{ partial "image" (dict
+        "Src" (strings.TrimPrefix `/` .image)
+        "Alt" ""
+        "Size" "1920x"
+        "Loading" "eager"
+        "FetchPriority" "high"
+        "Class" "w-full h-auto block"
+      ) }}
       <div class="absolute inset-0 bg-white/70 dark:bg-black/60 flex items-center justify-center px-4 home-banner-overlay">
         <div class="text-center lg:max-w-[60%] md:max-w-[80%]">
           <h1 class="mb-4 text-h3 lg:text-h1">
@@ -55,7 +63,7 @@
 <section class="section-sm">
   <div class="container">
     <div class="border border-black dark:border-white rounded-card overflow-hidden relative" style="height: 32rem;">
-      <img src="{{ strings.TrimPrefix "/" .image | relURL }}" alt="{{ .title }}" class="w-full h-full object-cover" loading="lazy" />
+      {{ partial "components/img.html" (dict "Src" .image "Alt" .title "Size" "1600x" "Class" "w-full h-full object-cover") }}
       <!-- <img src="{{ "images/circle-flag.svg" | relURL }}" alt="Romanian flag" class="absolute top-6 right-6 w-12 h-12 z-10" /> -->
       <div class="absolute inset-0 bg-white/70 flex flex-col items-center justify-center text-center p-8">
         {{ with .title }}<h3 class="text-black mb-4">{{ . }}</h3>{{ end }}
@@ -223,12 +231,12 @@
       <a href="{{ .link }}" target="_blank" rel="noopener"
         class="grayscale opacity-70 hover:grayscale-0 hover:opacity-100 transition-all duration-300"
         title="{{ .name }}">
-        <img src="{{ strings.TrimPrefix "/" .image | relURL }}" alt="{{ .name }}" class="h-16 w-auto max-w-[160px] object-contain" loading="lazy" />
+        {{ partial "components/img.html" (dict "Src" .image "Alt" .name "Size" "320x" "Class" "h-16 w-auto max-w-[160px] object-contain") }}
       </a>
       {{ else }}
       <span class="grayscale opacity-70 hover:grayscale-0 hover:opacity-100 transition-all duration-300"
         title="{{ .name }}">
-        <img src="{{ strings.TrimPrefix "/" .image | relURL }}" alt="{{ .name }}" class="h-16 w-auto max-w-[160px] object-contain" loading="lazy" />
+        {{ partial "components/img.html" (dict "Src" .image "Alt" .name "Size" "320x" "Class" "h-16 w-auto max-w-[160px] object-contain") }}
       </span>
       {{ end }}
       {{ end }}
@@ -252,12 +260,12 @@
       <a href="{{ .link }}" target="_blank" rel="noopener"
         class="grayscale opacity-70 hover:grayscale-0 hover:opacity-100 transition-all duration-300"
         title="{{ .name }}">
-        <img src="{{ strings.TrimPrefix "/" .image | relURL }}" alt="{{ .name }}" class="{{ $imgClass }}" loading="lazy" />
+        {{ partial "components/img.html" (dict "Src" .image "Alt" .name "Size" "320x" "Class" $imgClass) }}
       </a>
       {{ else }}
       <span class="grayscale opacity-70 hover:grayscale-0 hover:opacity-100 transition-all duration-300"
         title="{{ .name }}">
-        <img src="{{ strings.TrimPrefix "/" .image | relURL }}" alt="{{ .name }}" class="{{ $imgClass }}" loading="lazy" />
+        {{ partial "components/img.html" (dict "Src" .image "Alt" .name "Size" "320x" "Class" $imgClass) }}
       </span>
       {{ end }}
       {{ end }}

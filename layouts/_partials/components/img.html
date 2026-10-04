@@ -1,0 +1,110 @@
+{{/* Processed <img> that does NOT carry the theme's .img class.
+
+     The theme "image" partial appends .img, whose unlayered
+     `height: auto; max-width: 100%` outranks Tailwind's layered height
+     utilities (h-full, h-16, …), breaking fixed-height containers. It also
+     emits one srcset URL per breakpoint with no density descriptor, and it
+     upscales sources smaller than the requested size. This partial avoids
+     all three.
+
+     Params:
+       Src      (required) path, leading "/" optional
+       Alt, Class
+       Widths   slice of ints -> real srcset + Sizes (responsive mode)
+       Sizes    the sizes attribute, used with Widths
+       Size     single rendition, e.g. "800x" or "600x400" (default "800x")
+       CoverW/CoverH  device-pixel size of a fixed box the image will fill via
+                object-cover; the width is then derived per aspect ratio
+       Command  "Resize" | "Fill" | "Fit"  (default "Resize")
+       Loading  (default "lazy"), FetchPriority
+
+     Requested widths are clamped to the source width, so a small original is
+     never upscaled. SVG, GIF and PNG are served as-is (no resize, no webp):
+     they are graphics whose edges suffer from both. */}}
+
+{{ $src := strings.TrimPrefix "/" .Src }}
+{{/* PNG sources here are flat graphics, logos and screenshots. Both lossy
+     webp AND resampling soften their hard edges, so they are passed through
+     untouched below (same bytes as before the assets migration). Only photos
+     (jpeg) are resized and converted, where q85 is invisible. */}}
+{{ $q := 85 }}
+{{ $alt := .Alt | default "" }}
+{{ $class := .Class | default "" }}
+{{ $widths := .Widths }}
+{{ $sizes := .Sizes | default "100vw" }}
+{{ $size := .Size | default "800x" }}
+{{ $coverW := .CoverW }}
+{{ $coverH := .CoverH }}
+{{ $command := .Command | default "Resize" }}
+{{ $loading := .Loading | default "lazy" }}
+{{ $fetchpriority := .FetchPriority | default "" }}
+
+{{ with resources.Get $src }}
+  {{ if in (slice ".svg" ".gif" ".png") (path.Ext $src) }}
+    <img src="{{ .RelPermalink }}" alt="{{ $alt }}" class="{{ $class }}" loading="{{ $loading }}" />
+  {{ else if $widths }}
+    {{ $res := . }}
+    {{ $maxW := $res.Width }}
+    {{ $entries := slice }}
+    {{ $used := slice }}
+    {{ $largest := "" }}
+    {{ range $widths }}
+      {{ $w := cond (gt . $maxW) $maxW . }}
+      {{ if not (in $used $w) }}
+        {{ $used = $used | append $w }}
+        {{ $r := $res.Resize (printf "%dx webp q%d" $w $q) }}
+        {{ $entries = $entries | append (printf "%s %dw" $r.RelPermalink $w) }}
+        {{ $largest = $r }}
+      {{ end }}
+    {{ end }}
+    <img
+      src="{{ $largest.RelPermalink }}"
+      srcset="{{ delimit $entries ", " }}"
+      sizes="{{ $sizes }}"
+      alt="{{ $alt }}"
+      width="{{ $largest.Width }}"
+      height="{{ $largest.Height }}"
+      class="{{ $class }}"
+      loading="{{ $loading }}"
+      decoding="async"
+      {{ with $fetchpriority }}fetchpriority="{{ . }}"{{ end }} />
+  {{ else }}
+    {{ $res := . }}
+    {{ $spec := $size }}
+    {{ if and $coverW $coverH }}
+      {{/* object-cover in a fixed box: the binding constraint may be HEIGHT,
+           which a width-only resize cannot express. Work out the width this
+           particular aspect ratio needs to fill CoverW x CoverH device px,
+           then clamp to the source. Wide banners get more width than the box;
+           tall portraits get less. */}}
+      {{ $ar := div (float $res.Width) (float $res.Height) }}
+      {{ $need := math.Ceil (math.Max (float $coverW) (mul (float $coverH) $ar)) }}
+      {{ $w := cond (gt $need (float $res.Width)) $res.Width (int $need) }}
+      {{ $spec = printf "%dx" $w }}
+    {{ else if and (hasSuffix $size "x") (not (strings.Contains $size " ")) }}
+      {{/* clamp a width-only spec to the source width */}}
+      {{ $req := int (strings.TrimSuffix "x" $size) }}
+      {{ $w := cond (gt $req $res.Width) $res.Width $req }}
+      {{ $spec = printf "%dx" $w }}
+    {{ end }}
+    {{ $spec = printf "%s webp q%d" $spec $q }}
+    {{ $img := $res.Resize $spec }}
+    {{ if eq $command "Fill" }}
+      {{ $img = $res.Fill $spec }}
+    {{ else if eq $command "Fit" }}
+      {{ $img = $res.Fit $spec }}
+    {{ end }}
+    <img
+      src="{{ $img.RelPermalink }}"
+      alt="{{ $alt }}"
+      width="{{ $img.Width }}"
+      height="{{ $img.Height }}"
+      class="{{ $class }}"
+      loading="{{ $loading }}"
+      decoding="async"
+      {{ with $fetchpriority }}fetchpriority="{{ . }}"{{ end }} />
+  {{ end }}
+{{ else }}
+  {{/* not under assets/ (e.g. an SVG still in static/) */}}
+  <img src="{{ $src | relURL }}" alt="{{ $alt }}" class="{{ $class }}" loading="{{ $loading }}" />
+{{ end }}

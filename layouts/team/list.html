@@ -12,7 +12,10 @@
                 <div class="mx-auto mb-6 w-28 h-28 overflow-hidden rounded-image">
                   {{ with resources.Get $src }}
                     {{/* grayscale + webp, 2x the 112px box */}}
-                    {{ $img := .Resize "224x webp q85" }}
+                    {{ $ar := div (float .Width) (float .Height) }}
+                    {{ $need := math.Ceil (math.Max 224.0 (mul 224.0 $ar)) }}
+                    {{ $w := cond (gt $need (float .Width)) .Width (int $need) }}
+                    {{ $img := .Resize (printf "%dx webp q85" $w) }}
                     {{ $img = $img.Filter images.Grayscale }}
                     <img src="{{ $img.RelPermalink }}" alt="{{ $member.Title }}" width="{{ $img.Width }}" height="{{ $img.Height }}" class="w-full h-full object-cover" style="object-position: center top;" loading="lazy" />
                   {{ else }}

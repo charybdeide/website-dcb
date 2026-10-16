@@ -1,8 +1,18 @@
 {{/* inline markdown images: route through the theme partial so they are
-     resized and served as webp (with a jpeg onerror fallback) */}}
-{{ partial "image" (dict
+     resized and served as webp (with a jpeg onerror fallback)
+
+     An optional markdown title sets a max display width:
+       ![Alt](/images/x.jpg "400px")   -> centred, capped at 400px
+       ![Alt](/images/x.jpg "60%")     -> 60% of the content column
+     Omit it and the image fills the content column as before. */}}
+{{ $img := partial "image" (dict
   "Src" (strings.TrimPrefix "/" .Destination)
   "Context" .Page
   "Alt" .Text
   "Class" "rounded-image"
 ) }}
+{{ with .Title }}
+  <span style="display:block;max-width:{{ . | safeCSS }};margin-inline:auto">{{ $img }}</span>
+{{ else }}
+  {{ $img }}
+{{ end }}

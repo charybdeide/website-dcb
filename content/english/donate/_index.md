@@ -19,9 +19,12 @@ methods:
     content: |
       You can donate via PayPal using the button below:
 
-      <form action="https://www.paypal.com/donate" method="post" target="_blank">
+      <form action="https://www.paypal.com/donate" method="post" target="_blank" rel="noopener">
       <input type="hidden" name="hosted_button_id" value="ZZY99ZDLVXG66" />
-      <input type="image" src="https://www.paypalobjects.com/en_US/DK/i/btn/btn_donateCC_LG.gif" border="0" name="submit" title="PayPal" alt="Donate with PayPal button" />
+      <button type="submit" class="btn btn-primary inline-flex items-center gap-2">
+      <i class="fa-brands fa-paypal" aria-hidden="true"></i>
+      Donate with PayPal
+      </button>
       </form>
   - title: "Bank Transfer"
     content: |

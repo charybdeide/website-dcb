@@ -5,4 +5,3 @@ draft: false
 weight: 1
 ---
 
-Platzhalter-Biografie für Suzana. Wird ergänzt.

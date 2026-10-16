@@ -5,4 +5,3 @@ draft: false
 weight: 1
 ---
 
-Placeholder bio for Casian. To be added.

@@ -1,5 +1,5 @@
 ---
-title: "Oana Șanta"
+title: "Oana"
 image: "/images/team/avatar-placeholder.svg"
 draft: false
 weight: 1

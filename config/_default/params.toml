@@ -40,9 +40,12 @@ copyright = "© 2025 Diaspora Civică Berlin — Rumänische Diaspora Initiative
 
 # Metadata
 [metadata]
-  meta_author = "Diaspora Civică Berlin"
-  meta_image = "/images/fallback.png"
-  meta_description = "Diaspora Civică Berlin — Rumänische Diaspora Initiative e.V."
+  # Key names must match what the basic-seo module reads:
+  # site.Params.metadata.{author,image,description,keywords,twitter}
+  author = "Diaspora Civică Berlin"
+  # Site-wide link-preview fallback, used for every page with no own image.
+  image = "/images/fallback.png"
+  description = "Diaspora Civică Berlin — Rumänische Diaspora Initiative e.V."
 
 # Site Verification (uncomment and add your codes)
 # [site_verification]

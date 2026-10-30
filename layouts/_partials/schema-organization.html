@@ -13,7 +13,7 @@
   {{- with resources.Get "images/fallback.png" }}
   "image": "{{ .Permalink }}",
   {{- end }}
-  "description": "{{ site.Params.metadata.meta_description }}",
+  "description": "{{ site.Params.metadata.description }}",
   "address": {
     "@type": "PostalAddress",
     "streetAddress": "Oderstrasse 16",

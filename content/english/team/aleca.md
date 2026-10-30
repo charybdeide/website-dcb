@@ -1,5 +1,5 @@
 ---
-title: "Aleca Bunescu"
+title: "Aleca"
 image: "/images/team/Aleca-DCB.jpg"
 draft: false
 weight: 1

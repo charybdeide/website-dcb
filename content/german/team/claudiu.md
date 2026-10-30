@@ -1,5 +1,5 @@
 ---
-title: "Claudiu Hurban"
+title: "Claudiu"
 image: "/images/team/Claudiu.jpg"
 draft: false
 weight: 1

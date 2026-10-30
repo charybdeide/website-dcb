@@ -1,5 +1,5 @@
 ---
-title: "Sonia Șortan"
+title: "Sonia"
 image: "/images/team/sonia.JPEG"
 draft: false
 weight: 1

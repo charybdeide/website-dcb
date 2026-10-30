@@ -1,5 +1,5 @@
 ---
-title: "Ioana Dragoș"
+title: "Ioana"
 image: "/images/team/Ioana-DCB.jpg"
 draft: false
 weight: 1

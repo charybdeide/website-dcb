@@ -1,10 +1,9 @@
 ---
-title: "Alin Radu"
+title: "Alin"
 image: "/images/team/Alin.jpg"
 draft: false
 weight: 1
 ---
 
-Hi, I'm Alin and I've been living in Germany since 2013 and in Berlin since 2017.
-
-I still love Berlin and through my job I contribute to change it for the better. On the other hand, I joined Diaspora Civica Berlin in 2017 and contributed to numerous projects for the Romanian community of this city.
+Alin was born in Ramnicu Valcea and, after spending some years in Bucharest and Darmstadt, in 2017 life brought him to his favorite city in the whole world, Berlin, where he immediately met the people who were then slowly becoming Diaspora Civica Berlin. Professionally, Alin is currently working on improving Berlin’s biking infrastructure.
+So all in all, a dad, a passionate urban planning nerd, volunteer, and activist who loves this city and the community.
